@@ -1,4 +1,4 @@
-#File Extensions List in HTML
+# File Extensions List in HTML
 
 .txt
 .html

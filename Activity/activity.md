@@ -40,6 +40,8 @@
 
 1. Prepare a github profile repository.
 
+---
+
 ## 09-11-2022, Wednesday
 
 1. Draw the outline structure of the resume website.
@@ -53,3 +55,5 @@
    7. Gender.
    8. About them in few words.
    9. Hobbies from a list.
+
+   ---
