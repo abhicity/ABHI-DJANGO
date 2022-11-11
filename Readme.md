@@ -1,5 +1,6 @@
 ___Activities | Django : Full Stack Web Development.___
----
+
+___
 ___
 Click the `STAR` to open the List of Activities 👉🏻[⭐](./Activity/activity.md)
 
