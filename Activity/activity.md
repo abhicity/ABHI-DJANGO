@@ -4,22 +4,22 @@
 
 ## 01-11-2022, Tuesday
 
-1. Article on HTML Version. 
-2. File extension List. [open](./November/01-11-22-tue/File%20Extensions.md)
+1. Article on HTML Version. [open](./Nov/01-11-22-tue/Html_versions.md)
+2. File extension List. [open](./Nov/01-11-22-tue/File%20Extensions.md)
 
 ---
 
 ## 02-11-2022, Wednesday
 
-1. Go through WHATWG. [open](./November/02-11-22-wed/whatwgmd)
+1. Go through WHATWG. [open](./Nov/02-11-22-wed/whatwg.md)
 
 ---
 
 ## 03-11-2022, Thursday
 
 1. Github Repository usage in markdown.
-2. HTML resume. [open](./November/03-11-22-thu/Resume.html)
-3. File extension list in html. [open](./November/03-11-22-thu/File_Extension_List.html)
+2. HTML resume. [open](./Nov/03-11-22-thu/Resume.html)
+3. File extension list in html. [open](./Nov/03-11-22-thu/File_Extension_List.html)
 4. Markdown article in html.
 
 
@@ -27,12 +27,12 @@
 
 ## 04-11-2022, Friday
 
-1. Create a resume using file structure. [open](./November/04-11-22-fri/Resume.html)
-2. Favicon of self.[open](./November/04-11-22-fri/Favicon.html)
+1. Create a resume using file structure. [open](./Nov/04-11-22-fri/Resume.html)
+2. Favicon of self.[open](./Nov/04-11-22-fri/Favicon.html)
 3. Table.
-   1. Billing. [open](./November/04-11-22-fri/%232Billing.html)
+   1. Billing. [open](./Nov/04-11-22-fri/Billing.html)
    2. Pincodes of Bangalore.
-   3. Your wish. [open](./November/04-11-22-fri/%233Your%20Self.md)
+   3. Your wish. [open](./Nov/04-11-22-fri/Your_Self.md)
 
 ---
 
@@ -44,8 +44,8 @@
 
 ## 09-11-2022, Wednesday
 
-1. Draw the outline structure of the resume website. [open image1](./November/09-11-22-wed/Resume_Outline1.jpg)/[open image2](./November/09-11-22-wed/Resume_Outline2.jpg)
-2. Create a form to collect the data of the customer details. [open](./November/09-11-22-wed/Customer%20Details.html)
+1. Draw the outline structure of the resume website. [open image1](./Nov/09-11-22-wed/Resume_Outline1.jpg)/[open image2](./Nov/09-11-22-wed/Resume_Outline2.jpg)
+2. Create a form to collect the data of the customer details. [open](./Nov/09-11-22-wed/Customer_Details.html)
    1. Name
    2. Address
    3. Phone number
