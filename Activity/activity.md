@@ -57,3 +57,10 @@
    9. Hobbies from a list.
 
    ---
+
+## 15-11-2022, Tuesday
+
+1. Create the Outline of BLOG website.
+   1. Home page (Blog page)
+   2. Contact Us page
+   3. Login and Sign up page
