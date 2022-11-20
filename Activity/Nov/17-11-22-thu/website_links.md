@@ -2,7 +2,7 @@
 
 > SVG and PNG
 
-| Sl No | Activity               | Link                                                |
+| Sl No | Name                   | Link                                                |
 | ----- | ---------------------- | --------------------------------------------------- |
 | 1     | Manypixels             | [Link](https://www.manypixels.co/gallery)           |
 | 2     | IRA Design             | [Link](https://iradesign.io/)                       |
@@ -15,7 +15,7 @@
 
 > Images
 
-| Sl No | Activity           | Link                                       |
+| Sl No | Name               | Link                                       |
 | ----- | ------------------ | ------------------------------------------ |
 | 1     | Canva              | [Link](https://www.canva.com/photos/free/) |
 | 2     | Unsplash           | [Link](https://unsplash.com/)              |
@@ -33,7 +33,7 @@
 
 > Video
  
-| Sl No | Activity     | Link                             |
+| Sl No | Name         | Link                             |
 | ----- | ------------ | -------------------------------- |
 | 1     | Pixabay      | [Link](https://pixabay.com/)     |
 | 2     | Videvo       | [Link](https://www.videvo.net/)  |
@@ -45,7 +45,7 @@
 
 > Audio
 
-| Sl No | Activity     | Link                             |
+| Sl No | Name         | Link                             |
 | ----- | ------------ | -------------------------------- |
 | 1     | Pixabay      | [Link](https://pixabay.com/)     |
 | 2     | Videvo       | [Link](https://www.videvo.net/)  |
