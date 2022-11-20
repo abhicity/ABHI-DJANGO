@@ -17,7 +17,7 @@ ___
 | 4.    | 04-11-2022 | [open](./Activity/Nov/04-11-22-fri) |
 | 5.    | 09-11-2022 | [open](./Activity/Nov/09-11-22-wed) |
 | 6.    | 15-11-2022 | [open](./Activity/Nov/15-11-22-tue) |
-
+| 7.    | 17-11-2022 | [open](./Activity/Nov/17-11-22-thu) |
 
 ---
 ___

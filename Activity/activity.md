@@ -63,4 +63,15 @@
 1. Create the Outline of BLOG website.
    1. Home page (Blog page) [Home Blog](../../../Design/blog.png)
    2. Contact Us page. [Contact Us](../../../Design/contact_us.png)
-   3. Login and Sign up page. [Login](./../../../Design/login.png)/[Sign up](./../../../Design/signup.png)
+   3. Login and Sign up page. [Login](./../../../Design/login.png) / [Sign up](./../../../Design/signup.png)
+
+---
+
+## 17-11-2022, Thursday
+1. Creative Common license images, Videos and Audio website links.
+   1. Min 3 websites from each. [Website Links](.//Nov/17-11-22-thu/website_links.md)
+   2. apart from Undraw.co 
+2. Blog HTML
+   1. Remove the underline or default style of anchor tag.
+   2. On hover underline should be added.
+   3. add css for blog article sections
