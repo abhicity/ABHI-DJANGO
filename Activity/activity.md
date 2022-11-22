@@ -75,3 +75,13 @@
    1. Remove the underline or default style of anchor tag.
    2. On hover underline should be added.
    3. add css for blog article sections
+
+---
+
+## 22-11-2022, Tuesday
+1. Apply materialize css for resume.
+2. Apply Bootstrap for resume.
+3. Design icons for Indian regional languages.
+   1. use material design principle.
+
+---
