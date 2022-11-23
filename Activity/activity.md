@@ -79,8 +79,8 @@
 ---
 
 ## 22-11-2022, Tuesday
-1. Apply materialize css for resume.
-2. Apply Bootstrap for resume.
+1. Apply materialize css for resume. [open](./Nov/22-11-22-tue/m_resume.html)
+2. Apply Bootstrap for resume. [open](Nov/22-11-22-tue/b_resume.html)
 3. Design icons for Indian regional languages.
    1. use material design principle.
 
@@ -88,5 +88,5 @@
 
 ## 23-11-2022, Wednesday
 1. JavaScript
-   1. Data type with 3 examples for each in markdown file.
-2. Convert the above markdown to html and add materialize css to it
+   1. Data type with 3 examples for each in markdown file. [open](./Nov/23-11-22-wed/javascript.md)
+2. Convert the above markdown to html and add materialize css to it. [open](Nov/23-11-22-wed/materilize.html)
