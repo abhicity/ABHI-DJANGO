@@ -1,15 +1,4 @@
-.image-grid {
-    --gap: 16px;
-    --num-cols: 4;
-    --row-height: 300px;
-
-}
-
-
-
-
-
-.image-grid {
-    width: 100%;
-    height: 100%;
+.immgg {
+    width: 100vh;
+    height: 100vh;
 }

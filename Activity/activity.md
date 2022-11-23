@@ -85,3 +85,8 @@
    1. use material design principle.
 
 ---
+
+## 23-11-2022, Wednesday
+1. JavaScript
+   1. Data type with 3 examples for each in markdown file.
+2. Convert the above markdown to html and add materialize css to it
