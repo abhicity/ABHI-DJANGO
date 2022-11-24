@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <nav class="red">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Javascript</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+            </ul>
+        </div>
+    </nav>
+    <ul><b>
+            <li>Variables.</li>
+            <li>Comments.</li>
+            <li>Control Flow Statements.</li>
+        </b>
+    </ul>
+    <h4><b>Variables</b></h4>
+    <ul>
+        <li>
+            3 Ways to Declare a JavaScript Variable :
+        </li>
+    </ul>
+    <ol>
+        <li>Identifiers are case-sensitive.</li>
+        <li>Variables are containers for storing data (storing data values).</li>
+        <li>All JavaScript variables must be identified with unique names.</li>
+        <li>These unique names are called identifiers.</li>
+        <li>Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).</li>
+        <li>The general rules for constructing names for variables (unique identifiers) are :</li>
+    </ol>
+    <ul>
+        <li>Names can contain letters, digits, underscores, and dollar signs.</li>
+        <li>Names must begin with a letter.</li>
+        <li>Names can also begin with $ and _</li>
+        <li>Names are case sensitive (y and Y are different variables).</li>
+        <li>Reserved words (like JavaScript keywords) cannot be used as names.</li>
+
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //var Example<br>
+            //In this example a, b and c are variables<br>
+            declared with the var keyword :<br><br>
+            var a = 5;<br>
+            var b = 10;<br>
+            var c = a+b;<br>
+            console.log(c)<br>
+            //15
+        </p>
+    </div>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //let Example<br>
+            //In this example x, y and z are variables declared with the let keyword :<br><br>
+            let x = 8;<br>
+            let y = 4;<br>
+            let z = x + y;<br>
+            console.log(z)<br>
+            //12
+    </div>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //const Example<br>
+            const price1 = 15;<br>
+            const price2 = 10;<br>
+            let total = price1 + price2;<br>
+            console.log(total)<br>
+            //25
+    </div>
+
+    <ul>
+        <li>The two variables price1 and price2 are declared with the const keyword.</li>
+        <li>These are constant values and cannot be changed.</li>
+        <li>The variable total is declared with the let keyword.</li>
+        <li>This is a value that can be changed.</li>
+    </ul>
+
+
+
+
+
+
+
+
+    <h4><b>Comments</b></h4>
+    <ul>
+        <li>JavaScript comments can be used to explain JavaScript code, and to make it more readable.</li>
+        <li>JavaScript comments can also be used to prevent execution, when testing alternative code.</li>
+        <li>There are 2 types of commands in javascript they are,</li>
+    </ul>
+    <ol>
+        <li>Single line commend.</li>
+        <li>Multi line commend.</li>
+    </ol>
+    <ul>
+        <li>Single line commend.</li>
+    </ul>
+    <ol>
+        <li>Single line comments start with //.</li>
+        <li>Any text between // and the end of the line will be ignored by JavaScript (will not be executed).</li>
+    </ol>
+    <ul>
+        <li>Multi line commend.</li>
+    </ul>
+    <ol>
+        <li>Multi-line comments start with /* and end with */.</li>
+        <li>Any text between /* and */ will be ignored by JavaScript.</li>
+    </ol>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //comments Example<br><br>
+
+            <script><br>
+            //Single line comment  <br>
+                        JavaScript Code<br>
+            </script><br><br>
+
+
+            <script><br>
+            /* Multi-line comment<br>
+                                        This line will not execute */<br>
+                                            JavaScript Code<br>
+            </script> -->
+    </div>
+
+
+    <h4><b>Control Flow statements</b></h4>
+    <ul>
+        <li>Very often when you write code, you want to perform different actions for different decisions.</li>
+    </ul>
+    <ol>
+        <li>Use if to specify a block of code to be executed, if a specified condition is true.</li>
+        <li>Use else to specify a block of code to be executed, if the same condition is false.</li>
+        <li>Use else if to specify a new condition to test, if the first condition is false.</li>
+    </ol>
+    <ul>
+        <li>Uppercase letters (If or IF) will generate a JavaScript error.</li>
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //if, else Example<br>
+            const age = 18;<br><br>
+
+            if (age >= 18) {<br>
+            console.log("Harsha is an adult.");<br>
+            } else {<br>
+            console.log("Harsha is a child.");<br>
+            }<br>
+            //Harsha is an adult.
+    </div>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //if, else if, else Example<br>
+            const age = 18;<br><br>
+
+            if (age < 18)<br> {
+                console.log("Harsha is under 18 years old."); <br>
+                } else if (age>= 18 == age <= 21) {<br>
+                    console.log("Harsha is between the ages of 18 and 21.");<br>
+                    } else {<br>
+                    console.log("Harsha is over 21
+                    years old.");<br>
+                    } //Harsha is between the ages of 18 and 21.
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

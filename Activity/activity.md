@@ -90,3 +90,10 @@
 1. JavaScript
    1. Data type with 3 examples for each in markdown file. [open](./Nov/23-11-22-wed/javascript.md)
 2. Convert the above markdown to html and add materialize css to it. [open](Nov/23-11-22-wed/materilize.html)
+
+---
+
+## 24-11-2022, Thursday
+1. JavaScript
+   1. Minimum 3 examples for todays class topic.
+2. Convert the above markdown to html and add materialize css.
