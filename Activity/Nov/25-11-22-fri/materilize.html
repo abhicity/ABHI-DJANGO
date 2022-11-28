@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <nav class="red">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Loops</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+            </ul>
+        </div>
+    </nav>
+    <h4><b>Loops</b></h4>
+    <ol>
+        <li>
+            Loops are used in JavaScript to perform repeated tasks based on a condition.
+        </li>
+    </ol>
+    <ol>
+        <li>
+            Conditions typically return true or false. A loop will continue running until the defined condition returns
+            false.
+        </li>
+    </ol>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //Syntax<br>
+            //for (initialization; condition;<br>
+            finalExpression) {<br><br>
+            // code<br>
+            }
+        </p>
+    </div>
+
+
+
+    <ul>
+        <li>The for loop consists of three optional expressions, followed by a code block :</li>
+    </ul>
+    <ol>
+        <li>initialization.</li>
+        <ul>
+            <li>This expression runs before the execution of the first loop, and is usually used to create a counter.
+            </li>
+        </ul>
+
+        <li>condition.</li>
+        <ul>
+            <li>This expression is checked each time before the loop runs.</li>
+            <li>If it evaluates to true, the statement or code in the loop is executed. If it evaluates to false,
+                the loop
+                stops.</li>
+            <li>And if this expression is omitted, it automatically evaluates to true.</li>
+
+
+            <li>finalExpression.</li>
+    </ol>
+    <ul>
+        <li>This expression is executed after each iteration of the loop.</li>
+        <li>This is usually used to increment a counter, but can be used to decrement a counter instead. </li>
+    </ul>
+
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            const array = [1, 2, 3];<br><br>
+            for (const i in array) {<br>
+            console.log(i);
+            }<br><br>
+            // 0<br>
+            // 1<br>
+            // 2
+    </div>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            const arr = [ "Abhi", "Chandhu",<br>
+            "Rahul" ];<br><br>
+            for (let i of arr) {
+            console.log(i);
+            }<br><br>
+            // Output:<br>
+            // Abhi<br>
+            // Chandhan<br>
+            // Rahul
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //Loop Example<br>
+            //Iterate through integers from 0-8:<br><br>
+            for (let i = 0; i < 9; i++) { <br>
+                console.log(i);<br>
+                } <br>
+                // Output: <br>
+                // 0 <br>
+                // 1 <br>
+                // 2 <br>
+                // 3 <br>
+                // 4 <br>
+                // 5 <br>
+                // 6 <br>
+                // 7 <br>
+                // 8
+    </div>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            const capitals={<br>
+            a: "Athens" ,<br>
+            b: "Belgrade" ,<br>
+            c: "Cairo"<br>
+            };<br><br>
+
+            for (let key in capitals)<br>
+            { console.log(key<br>
+            + ": " +<br>
+            capitals[key]);<br>
+            }<br>
+            // Output:<br>
+            // a: Athens<br>
+            // b: Belgrade<br>
+            // c: Cairo
+    </div>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //Loop Example<br>
+            //Using Loop, the statement needs to be written only once and the loop will be executed 10 times as shown
+            below<br>
+
+            : for(i=1; i<=10; i++) <br>
+                { <br>
+                console.log(i, "Django" ); <br>
+                }
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
