@@ -105,3 +105,10 @@
    1. Minimum 5 examples for todays class topic. [open](./nov/25-11-22-fri/javascript.md)
 2. Convert the above markdown to html and add materialize css. [open](./nov/25-11-22-fri/materilize.html)
 3. List out the Javascript Engine with its browser name. [open](./nov/25-11-22-fri/js_engines.md)
+
+---
+
+### 28-11-2022, Monday
+- Table for a given number with initial and final multiplier value.
+- Conversion of temperature from Fahrenheit to deg celsius and vice versa.
+- Table for a given start table number and end table number with initial and final multiplier value.
