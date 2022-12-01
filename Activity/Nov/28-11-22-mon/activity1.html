@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Generator : Activity 1</title>
+    <style>
+        #table_output>p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Activity 1 : Table Generator</h1>
+    <div>
+        <input type="number" name="form_multiplier" id="form_multiplier" placeholder="form multiplier">
+        <input type="number" name="to_multiplier" id="to_multiplier" placeholder="to multiplier">
+        <input type="number" name="table_no" id="table_no" placeholder="table_no">
+        <button onclick="generate_table()">Generate</button>
+    </div>
+    <div>
+        <h3>Table for <span id="table_no_display"></span></h3>
+
+        <div id="table_output">
+
+        </div>
+    </div>
+
+    <script>
+        const form_multiplier = document.getElementById("form_multiplier");
+        const to_multiplier = document.getElementById("to_multiplier");
+        const table_no = document.getElementById("table_no");
+        const table_no_display = document.getElementById("table_no_display");
+        const table_output = document.getElementById("table_output");
+
+        function generate_table() {
+            let f_num = form_multiplier.value;
+            let to_num = to_multiplier.value;
+            let table = table_no.value;
+            table_no_display.innerText = table;
+
+            table_html = "";
+            for (i = f_num; i <= to_num; i++) {
+                table_html += "<p> " + table + " x " + i + " = " + (i * table) + "</p>";
+            }
+            table_output.innerHTML = table_html;
+            console.log("function executed");
+        }
+    </script>
+</body>
+
+</html>

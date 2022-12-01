@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>Temperature Converter | Activity 2</title>
+
+<body>
+
+    <h2>Fahrenheit to Celsius Temperature Converter</h2>
+    <p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+    <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="fc_converte(this.value)"
+            onchange="fc_converter(this.value)">
+    </p>
+    <p>Celcius: <span id="output_celcius"></span></p>
+
+    <h2>Celsius to Fahrenheit Temperature Converter</h2>
+    <p>Type a value in the Celsius field to convert the value to Fahrenheit:</p>
+
+    <p>
+        <label>Celsius</label>
+        <input id="inputCelsius" type="number" placeholder="Celsius" oninput="cf_converter(this.value)"
+            onchange="cf_converter(this.value)">
+    </p>
+    <p>Fahrenheit: <span id="output_fahrenheit"></span></p>
+
+    <script>
+        function fc_converter(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("output_celcius").innerHTML = (valNum - 32) / 1.8;
+        }
+
+        function cf_converter(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("output_fahrenheit").innerHTML = (valNum * 1.8) + 32;
+        }
+    </script>
+
+</body>
+
+</html>
