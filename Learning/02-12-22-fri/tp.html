@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Form</h1>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input name="first_name" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                    </div>
+                    <div class="input-field col s6">
+                        <input name="last_name" id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input name="start" id="start" type="number" class="validate">
+                        <label for="start">Start</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input name="end" id="end" type="number" class="validate">
+                        <label for="end">end</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input name="email" id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                        <span class="helper-text" data-error=":( you are wrong" data-success="right">Helper text</span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input name="diff" id="diff" type="number" disabled>
+                        <!-- <label for="diff">Substract</label> -->
+                        <span class="helper-text" data-error=":( you are wrong" data-success="right">Helper text</span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="reset_btn" class="disabled btn btn-large red lighten-2" type="reset" value="Reset">
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="submit_btn" class="btn btn-large" type="submit" value="Submit">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        const reset_btn = document.getElementById('reset_btn');
+        const submit_btn = document.getElementById('submit_btn');
+        const first_name = document.getElementById('first_name');
+        const start = document.getElementById('start');
+        const end = document.getElementById('end');
+        const diff = document.getElementById('diff');
+
+        function calculate_sub() {
+            let start_num = start.value;
+            let end_num = end.value;
+            diff.value = start_num - end_num;
+            if ((start_num - end_num) == 0) {
+                reset_btn.classList.remove("disabled");
+            }
+        }
+
+        start.addEventListener('keyup', calculate_sub);
+        end.addEventListener('keyup', calculate_sub);
+
+
+        submit_btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            let f_name = first_name.value;
+
+            if (f_name.startsWith("123")) {
+                console.log("success");
+            }
+            else {
+                console.log("failure");
+                alert("Reg No should start with 123");
+            }
+
+            // console.log(f_name);
+            // console.log(`submit btn : ${e.type}`);
+        })
+    </script>
+</body>
+
+</html>

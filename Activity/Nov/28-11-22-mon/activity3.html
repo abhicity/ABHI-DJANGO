@@ -6,67 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Generator : Activity 3</title>
-    <style>
-        #table_output>p {
-            margin: 0px;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Activity 1 : Table Generator</h1>
     <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>From </b><input type="number"
-            name="form_multiplier" id="form_multiplier" placeholder="form multiplier">&nbsp;&nbsp;
-
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <b>To </b><input type="number" name="to_multiplier" id="to_multiplier" placeholder="to multiplier"><br><br><br>
-
-
-        <b>Start Table </b><input type="number" name="start_table_no" id="start_table_no"
-            placeholder="start_table_no">&nbsp;&nbsp;
-        <b>End Table </b><input type="number" name="end_table_no" id="end_table_no"
-            placeholder="end_table_no"><br><br><br>
-
-
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button onclick="generate_table()">Generate</button>
+        <h2>Multiplier</h2>
+        <input type="number" name="s_mul" id="s_mul" placeholder="Start Multiplier">
+        <input type="number" name="e_mul" id="e_mul" placeholder="End Multiplier">
     </div>
     <div>
-        <h3>Table form <span id="table_no_display1"></span></h3>
-        <h3>Table To <span id="table_no_display2"></span></h3>
-
-        <div id="table_output">
-
-        </div>
+        <h2>Table</h2>
+        <input type="number" name="s_table" id="s_table" placeholder="Start Table">
+        <input type="number" name="e_table" id="e_table" placeholder="End Table">
     </div>
 
+    <button id="btn" style="padding:1rem 2rem;margin:2rem; background-color:rgb(117, 117, 238);">Print</button>
+    <h2>Output</h2>
+    <div id="output">
+
+    </div>
     <script>
-        const form_multiplier = document.getElementById("form_multiplier");
-        const to_multiplier = document.getElementById("to_multiplier");
-        const start_table_no = document.getElementById("start_table_no");
-        const end_table_no = document.getElementById("end_table_no");
-        const table_no_display1 = document.getElementById("table_no_display1");
-        const table_no_display2 = document.getElementById("table_no_display2");
-        const table_output = document.getElementById("table_output");
+        const s_mul = document.getElementById('s_mul');
+        const e_mul = document.getElementById('e_mul');
+        const s_table = document.getElementById('s_table');
+        const e_table = document.getElementById('e_table');
+        const btn = document.getElementById('btn');
+        const output = document.getElementById('output');
 
-        function generate_table() {
-            let f_num = form_multiplier.value;
-            let to_num = to_multiplier.value;
-            let s_table = start_table_no.value;
-            let e_table = end_table_no.value;
-            table_no_display1.innerText = s_table;
-            table_no_display2.innerText = e_table;
-
-            table_html = "";
-            for (i = f_num; i <= to_num; i++) {
-                table_html += "<p> " + s_table + e_table + " x " + i + " = " + (i * s_table) + (i * e_table) + "</p>";
+        btn.addEventListener('click', () => {
+            let table_data = '';
+            for (i = s_table.value; i <= e_table.value; i++) {
+                for (j = s_mul.value; j <= e_mul.value; j++) {
+                    table_data += `<p> ${i} x ${j} = ${i * j}</p>`;
+                }
+                table_data += "<hr>"
             }
-            table_output.innerHTML = table_html;
-            console.log("function executed");
-        }
+            output.innerHTML = table_data;
+        })
     </script>
 </body>
 

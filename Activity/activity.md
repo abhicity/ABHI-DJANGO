@@ -31,7 +31,7 @@
 2. Favicon of self.[open](./Nov/04-11-22-fri/Favicon.html)
 3. Table.
    1. Billing. [open](./Nov/04-11-22-fri/Billing.html)
-   2. Pincodes of Bangalore.
+   2. Pincodes of Bangalore. [open](.//.//Nov/03-11-22-thu/pincodes.html)
    3. Your wish. [open](./Nov/04-11-22-fri/Your_Self.md)
 
 ---
@@ -81,7 +81,7 @@
 ## 22-11-2022, Tuesday
 1. Apply materialize css for resume. [open](./Nov/22-11-22-tue/m_resume.html)
 2. Apply Bootstrap for resume. [open](Nov/22-11-22-tue/b_resume.html)
-3. Design icons for Indian regional languages.
+3. Design icons for Indian regional languages. [open](.//../Inkscape_icons)
    1. use material design principle.
 
 ---
@@ -109,6 +109,19 @@
 ---
 
 ### 28-11-2022, Monday
-- Table for a given number with initial and final multiplier value.
-- Conversion of temperature from Fahrenheit to deg celsius and vice versa.
-- Table for a given start table number and end table number with initial and final multiplier value.
+- Table for a given number with initial and final multiplier value. [open](.//Nov/28-11-22-mon/activity1.html)
+- Conversion of temperature from Fahrenheit to deg celsius and vice versa. [open](.//Nov/28-11-22-mon/activity2.html)
+- Table for a given start table number and end table number with initial and final multiplier value. [open](.//Nov/28-11-22-mon/activity3.html)
+
+---
+
+### 02-12-2022, Friday
+- Static website. [open](Dec/02-12-22-fri/static_website.html)
+   - Home page
+   - About us
+   - Contact us
+   - page related to theme taken.
+- Create a application form in html like CET, GATE or SSC. [open](.//Dec/02-12-22-fri/application_form.html)
+- Activate or display message if age is greater than 18 as of the current date.. [open](./Dec/02-12-22-fri/age.html)
+
+---

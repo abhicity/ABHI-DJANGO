@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Generator : Activity 3</title>
+    <style>
+        #table_output>p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Activity 1 : Table Generator</h1>
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>From </b><input type="number"
+            name="form_multiplier" id="form_multiplier" placeholder="form multiplier">&nbsp;&nbsp;
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>To </b><input type="number" name="to_multiplier" id="to_multiplier" placeholder="to multiplier"><br><br><br>
+
+
+        <b>Start Table </b><input type="number" name="start_table_no" id="start_table_no"
+            placeholder="start_table_no">&nbsp;&nbsp;
+        <b>End Table </b><input type="number" name="end_table_no" id="end_table_no"
+            placeholder="end_table_no"><br><br><br>
+
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="generate_table()">Generate</button>
+    </div>
+    <div>
+        <h3>Table form <span id="table_no_display1"></span></h3>
+        <h3>Table To <span id="table_no_display2"></span></h3>
+
+        <div id="table_output">
+
+        </div>
+    </div>
+
+    <script>
+        const form_multiplier = document.getElementById("form_multiplier");
+        const to_multiplier = document.getElementById("to_multiplier");
+        const start_table_no = document.getElementById("start_table_no");
+        const end_table_no = document.getElementById("end_table_no");
+        const table_no_display1 = document.getElementById("table_no_display1");
+        const table_no_display2 = document.getElementById("table_no_display2");
+        const table_output = document.getElementById("table_output");
+
+        function generate_table() {
+            let f_num = form_multiplier.value;
+            let to_num = to_multiplier.value;
+            let s_table = start_table_no.value;
+            let e_table = end_table_no.value;
+            table_no_display1.innerText = s_table;
+            table_no_display2.innerText = e_table;
+
+
+            table_output.addEventListener('click', () => {
+                let table_html = '';
+                for (i = f_num.value; i <= to_num.value; i++) {
+                    for (j = s_table.value; j <= e_table.value; j++) {
+                        table_html += `<p> ${i} x ${j} = ${i * j}</p>`;
+                    }
+                    table_html += "<hr>"
+                }
+                output.innerHTML = table_html;
+            })
+
+
+
+
+            console.log("function executed");
+        }
+    </script>
+</body>
+
+</html>

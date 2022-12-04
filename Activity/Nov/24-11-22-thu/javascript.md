@@ -6,7 +6,7 @@
 2. Comments.
 3. Control Flow statements.
 
-### ___Variables___
+### Variables
 
 - 3 Ways to Declare a JavaScript Variable :
   - Using var
@@ -62,7 +62,7 @@ console.log(total)
  
 ---
 
-### ___Comments___
+### Comments
 
 - JavaScript comments can be used to explain JavaScript code, and to make it more readable.
 - JavaScript comments can also be used to prevent execution, when testing alternative code.
@@ -94,7 +94,7 @@ JavaScript Code
 ```
 ---
 
-### ___Control Flow statements___
+### Control Flow statements
 - Very often when you write code, you want to perform different actions for different decisions.
   - Use `if` to specify a block of code to be executed, if a specified condition is true.
   - Use `else` to specify a block of code to be executed, if the same condition is false.

@@ -23,6 +23,7 @@ ___
 | 10.   | 24-11-2022 | [open](./Activity/Nov/24-11-22-thu) |
 | 11.   | 25-11-2022 | [open](./Activity/Nov/25-11-22-fri) |
 | 12.   | 28-11-2022 | [open](./Activity/Nov/28-11-22-mon) |
+| 13.   | 02-12-2022 | [open](./Activity/Dec/02-12-22-mon) |
 
 
 ---
