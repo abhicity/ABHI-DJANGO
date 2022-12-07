@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <nav class="red">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Similarities in JavaScript and Python</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+            </ul>
+        </div>
+    </nav>
+
+    <h4><b>Variables</b></h4>
+
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //JavaScript<br>
+            var fName = 'Abhi';<br>
+            let mName = 'Shek';<br>
+            const lName = 'C';
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            fName = 'Abhi'<br>
+            mName = 'Shek'<br>
+            lName = 'C'
+        </p>
+    </div>
+
+
+    <h4><b>String</b></h4>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //JavaScript<br>
+            JavaScript<br>
+            let name = "Abhi Shek C";<br>
+            console.log(`My name is ${name}.`);
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            name = "Abhi Shek C"<br>
+            print(f'My name is {name}.');
+        </p>
+    </div>
+
+
+    <h4><b>If-Statements</b></h4>
+    <ul>
+        <li>If</li>
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //JavaScript<br>
+            if (1 == 1) {<br>
+            return true;<br>
+            }
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            if (1 == 1):<br>
+            return true
+        </p>
+    </div>
+
+    <ul>
+        <li>Else</li>
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //JavaScript<br>
+            if (1 == 1)<br>
+            return true<br>
+            else<br>
+            return false
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            if (1 ==1):<br>
+            return true<br>
+            else:<br>
+            return false
+        </p>
+    </div>
+
+    <li>Else-If</li>
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //JavaScript<br>
+            if (1 == 1)<br>
+            return true<br>
+            else if (1 == 2)<br>
+            return false<br>
+            else<br>
+            return false
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            if (1 ==1):<br>
+            return true<br>
+            elif (1 == 2):<br>
+            return false<br>
+            else:<br>
+            return false
+        </p>
+    </div>
+
+    <h4><b>For Loop</b></h4>
+    <ul>
+        <li>Both languages have various ways of doing loops.</li>
+        <li>But the syntax between JavaScript and Python is very different.</li>
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //JavaScript<br>
+            for (let i = 0; i <= 5; i++) { <br>
+                console.log(i)<br>
+                }
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            for i in range(6):<br>
+            print(i)
+        </p>
+    </div>
+    <ul>
+        <li>In both instances, both languages print out the numbers 0-5. Python's in range() syntax is comparable to
+            JavaScript's <= , as it only loops for everything less than the given argument. In our case, the argument is
+                6, so it loops through 0 to 5.</li>
+        <li>If we wanted to use an array, we could do something like this:</li>
+    </ul>
+
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            let fruits = ['apples', 'mangos', 'watermellon'];<br>
+            for (let i = 0; i < fruits.length; i++) { console.log(fruit[i]) <br>
+                } <br>
+                #<br>
+                apples mangos watermellon
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            fruits = ['apples', 'mangos', 'watermellon']<br>
+            for i in range(len(fruit)):<br>
+            print(fruit[i])<br>
+            #apples mangos watermellon
+        </p>
+    </div>
+
+
+    <h4><b>While Loops</b></h4>
+    <ul>
+        <li>While loops are similar to for loops in many ways.</li>
+        <li>The syntax between the two is pretty similar:</li>
+    </ul>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            //JavaScript<br>
+            let i = 1;<br>
+            while (i < 10) { <br>
+                console.log(i) i++; }
+        </p>
+    </div>
+    <div class="col s12 m2">
+        <p class="blue-text text-darken-2,#fff59d yellow lighten-3">
+            #Python<br>
+            i = 1<br>
+            while i < 10: <br>
+                print(i) <br>
+                i +=1
+        </p>
+    </div>
+    <ul>
+        <li>A few things you'll notice here is that JavaScript increments with i++ while Python does it with i += 1 .
+        </li>
+        <li>This has nothing to do with while-loops; Python just does not have the ++ operator.</li>
+    </ul>
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

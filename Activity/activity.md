@@ -100,7 +100,7 @@
 
 ---
 
-### 25-11-2022, Friday
+## 25-11-2022, Friday
 1. JavaScript
    1. Minimum 5 examples for todays class topic. [open](./nov/25-11-22-fri/javascript.md)
 2. Convert the above markdown to html and add materialize css. [open](./nov/25-11-22-fri/materilize.html)
@@ -108,20 +108,33 @@
 
 ---
 
-### 28-11-2022, Monday
+## 28-11-2022, Monday
 - Table for a given number with initial and final multiplier value. [open](.//Nov/28-11-22-mon/activity1.html)
 - Conversion of temperature from Fahrenheit to deg celsius and vice versa. [open](.//Nov/28-11-22-mon/activity2.html)
 - Table for a given start table number and end table number with initial and final multiplier value. [open](.//Nov/28-11-22-mon/activity3.html)
 
 ---
 
-### 02-12-2022, Friday
+## 02-12-2022, Friday
 - Static website. [open](Dec/02-12-22-fri/static_website.html)
    - Home page
    - About us
    - Contact us
    - page related to theme taken.
 - Create a application form in html like CET, GATE or SSC. [open](.//Dec/02-12-22-fri/application_form.html)
-- Activate or display message if age is greater than 18 as of the current date.. [open](./Dec/02-12-22-fri/age.html)
+- Activate or display message if age is greater than 18 as of the current date. [open](./Dec/02-12-22-fri/age.html)
 
 ---
+
+## 06-12-2022, Tuesday
+- Convert Binary to Hexadecimal and Decimal Number.
+   - 1000101101
+   - 0111001
+   - 111001110000
+- Comparison table for Javascript and Python data types. [open](./Dec/06-12-22-tue/comparision.md)
+- Similarities in JavaScript and Python. [open](./Dec/06-12-22-tue/similarities.md)
+- 2 and 3 should be written in markdown. Convert the same to HTML, apply css using Materialize css and Bootstrap alternatively. The above example should be mobile friendly page,
+
+---
+
+
