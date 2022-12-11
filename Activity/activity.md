@@ -137,4 +137,15 @@
 
 ---
 
-
+## 08-12-2022, Thursday
+1. + Operator
+Bool + float
+Bool + complex
+Bool + String
+String + None
+2. `-`Operator
+3. `*` Operator
+4. `/` Operator
+5. `/` Operator
+6. `/` Operator
+7. Add differences between JS and Python on Arithmetic Operators.
