@@ -27,6 +27,10 @@ ___
 | 14.   | 06-12-2022 | [open](./Activity/Dec/06-12-22-tue) |
 | 15.   | 08-12-2022 | [open](./Activity/Dec/08-12-22-thu) |
 | 16.   | 09-12-2022 | [open](./Activity/Dec/09-12-22-fri) |
+| 17.   | 12-12-2022 | [open](./Activity/Dec/12-12-22-mon) |
+| 18.   | 13-12-2022 | [open](./Activity/Dec/13-12-22-tue) |
+| 19.   | 14-12-2022 | [open](./Activity/Dec/14-12-22-wed) |
+| 20.   | 16-12-2022 | [open](./Activity/Dec/16-12-22-fri) |
 
 
 ---

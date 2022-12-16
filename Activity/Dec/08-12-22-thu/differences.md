@@ -9,9 +9,6 @@ Differences between JS and Python on Arithmetic Operators.
 
 
 ### Comments
-How to Write Comments in Python and JavaScript
-Comments are very important to write clean and readable code. 
-
 - Single-Line Comments
     - In Python, we use a hashtag (#) to write a comment. All the characters on the same line after this symbol are considered part of the comment.
     - In JavaScript, we write two slashes (//) to start a single-line comment.

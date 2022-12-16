@@ -149,3 +149,58 @@ String + None
 5. `/` Operator
 6. `/` Operator
 7. Add differences between JS and Python on Arithmetic Operators.
+
+---
+
+## 12-12-2022, Monday
+1. List the Methods on the String.
+2. Give 3 Example for each method.
+3. Prepare Image for the same in the inkscape.
+
+---
+
+## 13-12-2022, Tuesday
+1. Methods on List, tuple and Dictionary.
+2. Examples on each.
+
+---
+
+## 14-12-2022, Wednesday
+1. Examples of Condition flow statement in js replicate in python code.
+2. Article on input, print, dir, help built-in methods/functions.
+
+---
+## 16-12-2022, Friday
+1. Create a list of city name with STD code from the provided string below using str.strip module.
+
+STRING DATA: std_code = "11 Delhi, 22 Mumbai, 33 Kolkata, 44 Chennai, 40 Hyderabad, 80 Bangalore, 20 Pune, 79 Ahmedabad"
+
+LIST OUTPUT: std_code_list['11 Delhi', ' 22 Mumbai', ' 33 Kolkata', ' 44 Chennai', ' 40 Hyderabad', ' 80 Bangalore', ' 20 Pune', ' 79 Ahmedabad']
+
+
+2. Identify the email service providers for the list of email ids.
+
+emails = ['test1@gmail.com','test2@outlook.com','test3@yahoo.com','test4@gmx.com','test4@mail.com','test4@post.com']
+
+
+3. Find the Sum of Digits in a Number.
+ Eg: number = 256
+ Solution = 2+5+6 = 13
+
+
+4. Display the Fibonacci Sequences up to nth Term Where n is Provided by the User.
+Hint: In a Fibonacci sequence, the next number is obtained by adding the previous two numbers. The first two numbers of the Fibonacci sequence are 0  and 1.
+
+
+5. Check Whether a Number Is Prime or Not.
+ 
+Create a dictionary from the list created with std code. keys should be city name and data should be STD code.
+
+Dictionary output:
+{'Delhi': 11, 'Mumbai': 22, 'Kolkata': 33, 'Chennai': 44, 'Hyderabad': 40, 'Bangalore': 80, 'Pune': 20, 'Ahmedabad': 79}
+
+Print even numbers for the range provided by the user.
+
+---
+
+
