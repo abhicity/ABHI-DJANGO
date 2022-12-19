@@ -1,42 +1,28 @@
-# [-] Subtraction Operators
+# ___`[-]` Subtraction Operator___
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Operators
-### Int + Int = Int
+### Int - Int = Int
 ```py
->>> a = 8
->>> b = 2
->>>
->>> c = a + b
->>> c
-10
->>> type(a)
+>>> x = 10
+>>> y = 5
+>>> z = x - y
+>>> z
+5
+>>> type(x)
 <class 'int'>
->>> type(b)
+>>> type(y)
 <class 'int'>
->>> type(c)
+>>> type(z)
 <class 'int'>
 >>>
 ```
-### Float + Float = Float
+
+### Float - Float = Float
 ```py
->>> a = 2.5
+>>> a = 4.5
 >>> b = 2.5
->>> c = a + b
+>>> c = a - b
 >>> c
-5.0
+2.0
 >>> type(a)
 <class 'float'>
 >>> type(b)
@@ -46,20 +32,13 @@
 >>>
 ```
 
-### Complex + Complex = Complex
+### Complex - Complex = Complex
 ```py
->>> a = 5 + 2j
->>> a1 = 5 + 2j
->>> a2 = 2 + 5j
->>> a3 = a1 + a2
+>>> a1 = 8 + 2j
+>>> a2 = 10 + 5j
+>>> a3 = a1 - a2
 >>> a3
-(7+7j)
->>>
->>> a1 = 5 + 4j
->>> a2 = 2 + 5j
->>> a3 = a1 + a2
->>> a3
-(7+9j)
+(-2-3j)
 >>> type(a1)
 <class 'complex'>
 >>> type(a2)
@@ -69,39 +48,37 @@
 >>>
 ```
 
-### String + String = String
+### String - String = String
 ```py
 >>> inst = "Skill Disk"
->>> place = "Bengaluru"
->>> form = inst + place
->>> form
-'Skill DiskBengaluru'
->>> type(inst)
-<class 'str'>
->>> type(place)
-<class 'str'>
->>> type(form)
-<class 'str'>
+>>> address = "Rajaji Nagar"
+>>> form = inst - address
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
 >>>
 ```
 
-### Bool + Bool = Int
+### Bool - Bool = Int
 ```py
-# Bool + Bool = int
->>> b = True
->>> c = False
->>>
->>> d = b + c
->>> d
+>>> a = True
+>>> b = False
+>>> c = a - b
+>>> c
 1
->>>
->>> type (b)
+>>> type(a)
 <class 'bool'>
->>> type (c)
+>>> type(b)
 <class 'bool'>
->>>
->>> type (d)
+>>> type(c)
 <class 'int'>
+>>>
+>>>
+>>> x = False
+>>> y = True
+>>> z = x - y
+>>> z
+-1
 >>>
 ```
 
@@ -109,28 +86,25 @@
 ```py
 >>> n1 = None
 >>> n2 = None
->>> n3 = n1 + n2
+>>> n3 = n1 - n2
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
->>>
->>> type(n1)
-<class 'NoneType'>
->>> type(n2)
-<class 'NoneType'>
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+>>> type(n3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'n3' is not defined. Did you mean: 'a3'?
 >>>
 ```
 ---
 
-
-
-### Int + Float = Float
+### Int - Float = Float
 ```py
->>> a = 10
->>> b = 3.3
->>> c = a + b
+>>> a = 7
+>>> b = 5.5
+>>> c = a - b
 >>> c
-13.3
+1.5
 >>> type(a)
 <class 'int'>
 >>> type(b)
@@ -140,39 +114,40 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
 >>>
 ```
 
-### Int + Complex = Complex
+### Int - Complex = Complex
 ```py
->>> s1 = 5
->>> s2 = 8 + 2j
->>> s3 = s1 + s2
->>> s3
-(13+2j)
->>> type(s1)
+>>> d = 5
+>>> e = 2 + 6j
+>>> f = d - e
+>>> f
+(3-6j)
+>>> type(d)
 <class 'int'>
->>> type(s2)
+>>> type(e)
 <class 'complex'>
->>> type(s3)
+>>> type(f)
 <class 'complex'>
 >>>
 ```
 
-### Int + String = unsupported operand
+### Int - String = unsupported operand
 ```py
->>> a = 8
->>> b = "abhi"
+>>> a = 20
+>>> b = "Twenty"
 >>> c = a + b
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>>
 ```
 
-### Int + Bool = Int
+### Int - Bool = Int
 ```py
->>> a = 5
+>>> a = 8
 >>> b = True
->>> c = a + b
+>>> c = a - b
 >>> c
-6
+7
 >>> type(a)
 <class 'int'>
 >>> type(b)
@@ -180,93 +155,113 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 >>> type(c)
 <class 'int'>
 >>>
+>>>
+>>> a = 4
+>>> b = False
+>>> c = a - b
+>>> c
+4
+>>>
 ```
-### Int + None = unsupported operand
+
+### Int - None = unsupported operand
 ```py
->>> a = 2
+>>> a = 9
 >>> b = None
->>> c = a + b
+>>> c = a - b
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
 >>> type(a)
 <class 'int'>
+>>> type(b)
+<class 'NoneType'>
+```
+---
+
+### Float - Complex = Complex
+```py
+>>> a = 4.4
+>>> b = 3 + 5j
+>>> c = a - b
+>>> c
+(1.4000000000000004-5j)
+>>>
+>>> a = 5.5
+>>> b = 2 + 5j
+>>> c = a - b
+>>> c
+(3.5-5j)
+>>> type(a)
+<class 'float'>
+>>> type(b)
+<class 'complex'>
+>>> type(c)
+<class 'complex'>
+>>>
+```
+
+### Float - String = unsupported operand
+```py
+>>> a = 5.5
+>>> b = "Five"
+>>> c = a - b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'float' and 'str'
+>>> type(a)
+<class 'float'>
+>>> type(b)
+<class 'str'>
+>>>
+```
+
+### Float - Bool = Float
+```py
+>>> a = 5.5
+>>> b = True
+>>> c = a - b
+>>> c
+4.5
+>>> type(a)
+<class 'float'>
+>>> type(b)
+<class 'bool'>
+>>> type(c)
+<class 'float'>
+>>>
+>>> a = 4.4
+>>> b = False
+>>> c = a - b
+>>> c
+4.4
+>>>
+```
+
+### Float - None = unsupported operand
+```py
+>>> a = 10.5
+>>> b = None
+>>> c = a - b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'float' and 'NoneType'
+>>> type(a)
+<class 'float'>
 >>> type(b)
 <class 'NoneType'>
 >>>
 ```
 ---
 
-
-### Float + Complex = Complex
+### Complex - String = unsupported operand
 ```py
->>> a = 5.5
->>> b = 2 + 4j
->>> c = a + b
->>> c
-(7.5+4j)
->>> type(a)
-<class 'float'>
->>> type(b)
-<class 'complex'>
->>> type(c)
-<class 'complex'>
->>>
-```
-
-### Float + String = unsupported operand
-```py
->>> a = 10.5
+>>> a = 3 + 4j
 >>> b = "abhi"
->>> c = a + b
+>>> c = a - b
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'float' and 'str'
->>> type(a)
-<class 'float'>
->>> type(b)
-<class 'str'>
-```
-
-### Float + Bool = Float
-```py
->>> q = 2.2
->>> w = True
->>> e = q + w
->>> e
-3.2
->>> type(q)
-<class 'float'>
->>> type(w)
-<class 'bool'>
->>> type(e)
-<class 'float'>
->>>
-```
-
-### Float + None = unsupported operand
-```py
->>> a = 3.3
->>> b = None
->>> c = a + b
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'
->>> type(a)
-<class 'float'>
->>> type(b)
-<class 'NoneType'>
->>>
-```
-
-### Complex + String = unsupported operand
-```py
->>> a = 5+5j
->>> b = "abhi"
->>> c = a + b
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'complex' and 'str'
+TypeError: unsupported operand type(s) for -: 'complex' and 'str'
 >>> type(a)
 <class 'complex'>
 >>> type(b)
@@ -274,13 +269,13 @@ TypeError: unsupported operand type(s) for +: 'complex' and 'str'
 >>>
 ```
 
-### Complex + Boolean = Complex
+### Complex - Boolean = Complex
 ```py
->>> a = 2+4j
+>>> a = 6 + 5j
 >>> b = True
->>> c = a + b
+>>> c = a - b
 >>> c
-(3+4j)
+(5+5j)
 >>> type(a)
 <class 'complex'>
 >>> type(b)
@@ -289,36 +284,38 @@ TypeError: unsupported operand type(s) for +: 'complex' and 'str'
 <class 'complex'>
 >>>
 >>>
->>> x =2+4j
->>> y = False
->>> z = x + y
->>> z
-(2+4j)
+>>> a = 6 + 5j
+>>> b = False
+>>> c = a - b
+>>> c
+(6+5j)
+>>>
 ```
 
-### Complex + None = unsupported operand
+### Complex - None = unsupported operand
 ```py
->>> a = 5+5j
+>>> a = 10 + 5j
 >>> b = None
->>> c = a + b
+>>> c = a - b
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'complex' and 'NoneType'
+TypeError: unsupported operand type(s) for -: 'complex' and 'NoneType'
 >>> type(a)
 <class 'complex'>
 >>> type(b)
 <class 'NoneType'>
 >>>
 ```
+---
 
-### String + Boolean = unsupported operand
+### String - Boolean = unsupported operand
 ```py
->>> a = "abhi"
+>>> a ="abhi"
 >>> b = True
->>> c = a + b
+>>> c = a - b
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: can only concatenate str (not "bool") to str
+TypeError: unsupported operand type(s) for -: 'str' and 'bool'
 >>> type(a)
 <class 'str'>
 >>> type(b)
@@ -326,42 +323,34 @@ TypeError: can only concatenate str (not "bool") to str
 >>>
 ```
 
-### String + None = unsupported operand
+### String - None = unsupported operand
 ```py
 >>> a = "abhi"
 >>> b = None
->>> c = a + b
+>>> c = a - b
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: can only concatenate str (not "NoneType") to str
+TypeError: unsupported operand type(s) for -: 'str' and 'NoneType'
 >>> type(a)
 <class 'str'>
 >>> type(b)
 <class 'NoneType'>
 >>>
 ```
+---
 
-### Boolean + None = unsupported operand
+### Boolean - None = unsupported operand
 ```py
 >>> a = True
 >>> b = None
->>> c = a + b
+>>> c = a - b
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'bool' and 'NoneType'
+TypeError: unsupported operand type(s) for -: 'bool' and 'NoneType'
 >>> type(a)
 <class 'bool'>
 >>> type(b)
 <class 'NoneType'>
->>>
->>>
->>> a = False
->>> b = None
->>> c = a + b
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'bool' and 'NoneType'
->>>
 >>>
 ```
 ---

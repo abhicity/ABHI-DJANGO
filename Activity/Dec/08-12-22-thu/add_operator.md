@@ -1,4 +1,4 @@
-# [+] Addition Operators
+# ___`[+]` Addition Operator___
 ### Int + Int = Int
 ```py
 >>> a = 8
@@ -243,6 +243,7 @@ TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'
 <class 'NoneType'>
 >>>
 ```
+---
 
 ### Complex + String = unsupported operand
 ```py
@@ -295,6 +296,7 @@ TypeError: unsupported operand type(s) for +: 'complex' and 'NoneType'
 <class 'NoneType'>
 >>>
 ```
+---
 
 ### String + Boolean = unsupported operand
 ```py
@@ -325,6 +327,7 @@ TypeError: can only concatenate str (not "NoneType") to str
 <class 'NoneType'>
 >>>
 ```
+---
 
 ### Boolean + None = unsupported operand
 ```py
@@ -349,15 +352,6 @@ TypeError: unsupported operand type(s) for +: 'bool' and 'NoneType'
 >>>
 >>>
 ```
-
-
-
-
-
-
-
-
-
 
 
 
