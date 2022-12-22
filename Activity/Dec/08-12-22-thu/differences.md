@@ -1,61 +1,113 @@
-Differences between JS and Python on Arithmetic Operators.
+[TOC]
 
-| Sl No | Python | JavaScript |
-| ----- | ------ | ---------- |
-|       |        |            |
-|       |        |            |
-|       |        |            |
-|       |        |            |
+# Differences between JS and Python on Arithmetic Operators.
 
 
-### Comments
-- Single-Line Comments
-    - In Python, we use a hashtag (#) to write a comment. All the characters on the same line after this symbol are considered part of the comment.
-    - In JavaScript, we write two slashes (//) to start a single-line comment.
+### `+` Addition operator
+
+```js
+//JavaScript
+let a = 10;
+let b = 5;
+let x = a + b;
+console.log(x);
+15
+```
 
 ```py
-In Python :
-# Comment
+#Python
+>>> a = 8
+>>> b = 2
+>>> c = a + b
+>>> c
+10
 ```
-```js
-In JavaScript :
-// Comment
-```
+---
 
-- Multi-Line Comments
-    - In Python, to write a multi-line comment we start each line with a hashtag.
-    - In JavaScript, multi-line comments start with a /* and end with a */. All the characters between these symbols are considered part of the comment.
+### `-` Subtraction operator
+
+```js
+//JavaScript
+let a = 20;
+let b = 8;
+let x = a - b;
+console.log(x);
+12
+```
 
 ```py
-In Python :
-# Multi-line comment 
-# in Python to explain
-# the code in detail.
+#Python
+>>> a = 10
+>>> b = 3
+>>> c = a - b
+>>> c
+7
 ```
+---
+
+### `*` Multiplication operator
+
 ```js
-In JavaScript :
-
-/* 
-Multi-line comment 
-in JavaScript to explain 
-the code in detail.
-*/
+//JavaScript
+let a = 2;
+let b = 8;
+let x = a * b;
+console.log(x);
+16
 ```
 
+```py
+#Python
+>>> a = 5
+>>> b = 8
+>>> c = a * b
+>>> c
+40
+```
+---
 
+### `**` Exponential operator
 
+```js
+//JavaScript
+let x = 5;
+// 5 will be divided 2 times.
+let y = 2;
+let z = x ** y;
+console.log(z)
+25
+x ** y
+25
+```
 
+```py
+#Python
+>>> a = 4
+# 4 will be divided 3 times.
+>>> b = 3
+>>> c = a ** b
+>>> c
+64
+```
+---
 
+### `/` Division operator
 
+```js
+//JavaScript
+let x = 5;
+let y = 2;
+let z = x / y;
+console.log(z)
+2.5
+```
 
-
-
-
-- Input and Output in Python and JavaScript
-
-Input
-- In Python, we use the input() function to ask for user input. We write the message within parentheses.
-
-- In JavaScript, one alternative (if you are running the code on a browser) is to display a small prompt with window.prompt(message) and assign the result to a variable.
-  
-The main difference between these two approaches is that in Python, the user will be prompted to enter a value in the console while in JavaScript, a small prompt will be displayed on the browser and it will ask the user to enter a value.
+```py
+#Python
+>>> a = 20
+>>> b = 5
+>>> c = a / b
+>>> c
+4.0
+```
+---
