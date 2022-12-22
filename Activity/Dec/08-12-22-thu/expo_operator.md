@@ -79,14 +79,15 @@ TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'str'
 >>>
 ```
 
-### None Type
+### None ** None = unsupported operand
 ```py
 >>> n1 = None
->>> n2 = None
->>> n3 = n1 ** n3
+>>> n2 =None
+>>> n1 ** n2
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-NameError: name 'n3' is not defined.
+TypeError: unsupported operand type(s) for ** or pow(): 'NoneType' and 'NoneType'
+>>>
 >>> type(n1)
 <class 'NoneType'>
 >>> type(n2)

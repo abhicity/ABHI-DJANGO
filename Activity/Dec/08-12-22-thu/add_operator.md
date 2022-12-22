@@ -1,5 +1,8 @@
+[TOC]
+
 # ___`[+]` Addition Operator___
-### Int + Int = Int
+
+### int + int = int
 ```py
 >>> a = 8
 >>> b = 2
@@ -15,7 +18,7 @@
 <class 'int'>
 >>>
 ```
-### Float + Float = Float
+### float + float = float
 ```py
 >>> a = 2.5
 >>> b = 2.5
@@ -31,7 +34,7 @@
 >>>
 ```
 
-### Complex + Complex = Complex
+### complex + complex = complex
 ```py
 >>> a = 5 + 2j
 >>> a1 = 5 + 2j
@@ -54,7 +57,7 @@
 >>>
 ```
 
-### String + String = String
+### string + string = string
 ```py
 >>> inst = "Skill Disk"
 >>> place = "Bengaluru"
@@ -70,7 +73,7 @@
 >>>
 ```
 
-### Bool + Bool = Int
+### bool + bool = int
 ```py
 # Bool + Bool = int
 >>> b = True
@@ -90,7 +93,7 @@
 >>>
 ```
 
-### None Type
+### None + None = unsupported operand
 ```py
 >>> n1 = None
 >>> n2 = None
@@ -109,7 +112,7 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
 
 
 
-### Int + Float = Float
+### int + float = float
 ```py
 >>> a = 10
 >>> b = 3.3
@@ -125,7 +128,7 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
 >>>
 ```
 
-### Int + Complex = Complex
+### int + complex = complex
 ```py
 >>> s1 = 5
 >>> s2 = 8 + 2j
@@ -141,7 +144,7 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
 >>>
 ```
 
-### Int + String = unsupported operand
+### int + string = unsupported operand
 ```py
 >>> a = 8
 >>> b = "abhi"
@@ -151,7 +154,7 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-### Int + Bool = Int
+### int + bool = int
 ```py
 >>> a = 5
 >>> b = True
@@ -166,7 +169,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 <class 'int'>
 >>>
 ```
-### Int + None = unsupported operand
+### int + None = unsupported operand
 ```py
 >>> a = 2
 >>> b = None
@@ -183,7 +186,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
 ---
 
 
-### Float + Complex = Complex
+### float + complex = complex
 ```py
 >>> a = 5.5
 >>> b = 2 + 4j
@@ -199,7 +202,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
 >>>
 ```
 
-### Float + String = unsupported operand
+### float + string = unsupported operand
 ```py
 >>> a = 10.5
 >>> b = "abhi"
@@ -213,7 +216,7 @@ TypeError: unsupported operand type(s) for +: 'float' and 'str'
 <class 'str'>
 ```
 
-### Float + Bool = Float
+### float + bool = float
 ```py
 >>> q = 2.2
 >>> w = True
@@ -229,7 +232,7 @@ TypeError: unsupported operand type(s) for +: 'float' and 'str'
 >>>
 ```
 
-### Float + None = unsupported operand
+### float + None = unsupported operand
 ```py
 >>> a = 3.3
 >>> b = None
@@ -245,7 +248,7 @@ TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'
 ```
 ---
 
-### Complex + String = unsupported operand
+### complex + string = unsupported operand
 ```py
 >>> a = 5+5j
 >>> b = "abhi"
@@ -260,7 +263,7 @@ TypeError: unsupported operand type(s) for +: 'complex' and 'str'
 >>>
 ```
 
-### Complex + Boolean = Complex
+### complex + boolean = complex
 ```py
 >>> a = 2+4j
 >>> b = True
@@ -282,7 +285,7 @@ TypeError: unsupported operand type(s) for +: 'complex' and 'str'
 (2+4j)
 ```
 
-### Complex + None = unsupported operand
+### complex + None = unsupported operand
 ```py
 >>> a = 5+5j
 >>> b = None
@@ -298,7 +301,7 @@ TypeError: unsupported operand type(s) for +: 'complex' and 'NoneType'
 ```
 ---
 
-### String + Boolean = unsupported operand
+### string + boolean = unsupported operand
 ```py
 >>> a = "abhi"
 >>> b = True
@@ -313,7 +316,7 @@ TypeError: can only concatenate str (not "bool") to str
 >>>
 ```
 
-### String + None = unsupported operand
+### string + None = unsupported operand
 ```py
 >>> a = "abhi"
 >>> b = None
@@ -329,7 +332,7 @@ TypeError: can only concatenate str (not "NoneType") to str
 ```
 ---
 
-### Boolean + None = unsupported operand
+### boolean + None = unsupported operand
 ```py
 >>> a = True
 >>> b = None

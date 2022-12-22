@@ -1,15 +1,107 @@
-'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill'
+[TOC]
+## Sring Methods
 
-1. capitalize
-2. casefold
-3. center
+
+### 1. capitalize
+- The capitalize() method returns a string where the first character is upper case, and the rest is lower case
+- syntax: name.capatilize()
+
+```
+help(name.capitalize)
+
+Help on built-in function capitalize:
+
+capitalize() method of builtins.str instance
+    Return a capitalized version of the string.
+
+    More specifically, make the first character have upper case and the rest lower
+    case.
+```
+Example:
+```py
+>>> name = "my Name IS aBHI"
+>>> name
+'my Name IS aBHI'
+>>> name.capitalize()
+'My name is abhi'
+>>>
+```
+---
+### 2. casefold
+syntax: casefold()
+```
+help(txt.casefold)
+
+Help on built-in function casefold:
+
+casefold() method of builtins.str instance
+    Return a version of the string suitable for caseless comparisons.
+```
+Example:
+```py
+>>> txt = "Hello, And Welcome To My World!"
+>>> txt
+'Hello, And Welcome To My World!'
+>>> txt.casefold()
+'hello, and welcome to my world!'
+>>>
+```
+
+### 3. center
+- The center() method will center align the string, using a specified character (space is default) as the fill character.
+- syntax: string.center(length, character)
+```
+help(place.center)
+
+Help on built-in function center:
+
+center(width, fillchar=' ', /) method of builtins.str instance
+    Return a centered string of length width.
+
+    Padding is done using the specified fill character (default is a space).
+```
+Example:
+```py
+>>> txt = "Ponds Powder"
+>>> txt
+'Ponds Powder'
+>>> txt.center(25)
+'       Ponds Powder      '
+>>>
+# returns padded string by adding whitespace up to length 25
+```
+```py
+>>> txt = "Ponds Powder"
+>>> txt
+'Ponds Powder'
+>>> txt.center(20,"*")
+'****Ponds Powder****'
+# returns the centered padded string of length 20
+```
+
+
+
 4. count
+
+
 5. encode
+
+
 6. endswith
+
+
 7. expandtabs
+
+
 8. find
-9. format
+
+
+9.  format
+
+
 10. format_map
+
+
 11. index
 12. isalnum
 13. isalpha
@@ -45,8 +137,94 @@
 43. swapcase
 44. title
 45. translate
-46. upper
-47. zfill
+
+
+### 46. upper
+- The upper() method returns a string where all characters are in upper case.
+- Symbols and Numbers are ignored.
+- syntax: str.center()
+
+```
+help(name.upper)
+Help on built-in function upper:
+
+upper() method of builtins.str instance
+    Return a copy of the string converted to uppercase.
+```
+
+Example:
+```py
+>>> name = "AbhiShek"
+>>> name
+'AbhiShek'
+>>> name.upper()
+'ABHISHEK'
+>>>
+```
+
+47.  zfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48. help(place.casefold)
+Help on built-in function casefold:
+```
+casefold() method of builtins.str instance
+    Return a version of the string suitable for caseless comparisons.
+```
+>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,6 +246,7 @@
 
 
 ----
+
 | Sl No | Methods      | Origin | Defeat |
 | ----- | ------------ | ------ | ------ |
 | 1     | capital      |
@@ -134,16 +313,6 @@
 
 ---
 ---
-
-
-
-1. help(place.strip)
-```py
-Help on built-in function strip:
-
-strip(chars=None, /) method of builtins.str instance
-    Return a copy of the string with leading and trailing whitespace removed.
-
-    If chars is given and not None, remove characters in chars instead.
-    ```
-2. 
+'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill'
+---
+---

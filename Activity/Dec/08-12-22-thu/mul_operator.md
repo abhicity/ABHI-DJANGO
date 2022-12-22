@@ -1,5 +1,6 @@
-# ___`[*]` Multiplicaton Operator___
+[TOC]
 
+# ___`[*]` Multiplicaton Operator___
 
 ### Int * Int = Int
 ```py
@@ -82,7 +83,7 @@ TypeError: can't multiply sequence by non-int of type 'str'
 >>>
 ```
 
-### None Type
+### None * None = unsupported operand
 ```py
 >>> n1 = None
 >>> n2 = None

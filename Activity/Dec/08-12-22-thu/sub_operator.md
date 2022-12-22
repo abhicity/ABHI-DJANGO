@@ -82,7 +82,7 @@ TypeError: unsupported operand type(s) for -: 'str' and 'str'
 >>>
 ```
 
-### None Type
+### None - None = unsupported operand
 ```py
 >>> n1 = None
 >>> n2 = None

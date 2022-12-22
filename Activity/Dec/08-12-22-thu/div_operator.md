@@ -1,5 +1,6 @@
-# ___`[/]` Division Operator___
+[TOC]
 
+# ___`[/]` Division Operator___
 
 ### Int / Int = Float
 ```py
@@ -78,7 +79,7 @@ ZeroDivisionError: division by zero
 >>>
 ```
 
-### None Type
+### None / None = unsupported operand
 ```py
 >>> n1 = None
 >>> n2 = None
