@@ -1,10 +1,10 @@
 ### Exercise Questions
 
-1. Write a program that calculates the number of seconds in a day.
-2. A train travels 3,000 meters in 9000 seconds. Write a program to find the speed of the train.
-3. Write a program to read the marks of three subjects and find the average of them.
+1. Write a program that calculates the number of seconds in a day. [open](folder/eq1.py)
+2. A train travels 3,000 meters in 9000 seconds. Write a program to find the speed of the train. [open](folder/eq2.py)
+3. Write a program to read the marks of three subjects and find the average of them. [open](folder/eq3.py)
 4. Write a program to read two integers and perform arithmetic operations on them
-(addition, subtraction, multiplication, division, Modules, floor division ).
+(addition, subtraction, multiplication, division, Modules, floor division ). [open](folder/eq4.py)
 
 ### String
 
