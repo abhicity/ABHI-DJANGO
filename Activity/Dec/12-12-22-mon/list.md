@@ -12,45 +12,45 @@
 |  5.   | encode       |           |        |                               |                                                                  |
 |  6.   | endswith     |           |        |                               |                                                                  |
 |  7.   | expandtabs   |           |        |                               |                                                                  |
-|  8.   | find         |           |        |                               |                                                                  |
+|  8.   | find         |           |        | str.find(value, start, end)   |                                                                  |
 |  9.   | format       |           |        |                               |                                                                  |
 |  10.  | format_map   |           |        |                               |                                                                  |
 |  11.  | index        |           |        |                               |                                                                  |
 |  12.  | isalnum      |           |        |                               |                                                                  |
 |  13.  | isalpha      |           |        |                               |                                                                  |
 |  14.  | isascii      |           |        |                               |                                                                  |
-|  1.   | isdecimal    |           |        |                               |                                                                  |
-|  2.   | isdigit      |           |        |                               |                                                                  |
-|  3.   | isidentifier |           |        |                               |                                                                  |
-|  4.   | islower      |           |        |                               |                                                                  |
-|  5.   | isnumeric    |           |        |                               |                                                                  |
-|  6.   | isprintable  |           |        |                               |                                                                  |
-|  7.   | isspace      |           |        |                               |                                                                  |
-|  8.   | istitle      |           |        |                               |                                                                  |
-|  9.   | isupper      |           |        |                               |                                                                  |
-|  10.  | join         |           |        |                               |                                                                  |
-|  11.  | ljust        |           |        |                               |                                                                  |
-|  12.  | lower        |           |        |                               |                                                                  |
-|  13.  | lstrip       |           |        |                               |                                                                  |
-|  14.  | maketrans    |           |        |                               |                                                                  |
-|  15.  | partition    |           |        |                               |                                                                  |
-|  16.  | removeprefix |           |        |                               |                                                                  |
-|  17.  | removesuffix |           |        |                               |                                                                  |
-|  18.  | replace      |           |        |                               |                                                                  |
-|  19.  | rfind        |           |        |                               |                                                                  |
-|  20.  | rindex       |           |        |                               |                                                                  |
-|  21.  | rjust        |           |        |                               |                                                                  |
-|  22.  | rpartition   |           |        |                               |                                                                  |
-|  23.  | rsplit       |           |        |                               |                                                                  |
-|  24.  | rstrip       |           |        |                               |                                                                  |
-|  25.  | split        |           |        |                               |                                                                  |
-|  26.  | splitlines   |           |        |                               |                                                                  |
-|  27.  | startswith   |           |        |                               |                                                                  |
-|  28.  | strip        |           |        |                               |                                                                  |
-|  29.  | swapcase     |           |        |                               |                                                                  |
-|  30.  | title        |           |        |                               |                                                                  |
-|  31.  | translate    |           |        |                               |                                                                  |
-|  32.  | upper        |     -     |   -    | str.upper()                   | Converts a string into upper case                                |
-|  33.  | zfill        |           |        |                               |                                                                  |
+|  15.  | isdecimal    |           |        |                               |                                                                  |
+|  16.  | isdigit      |           |        |                               |                                                                  |
+|  17.  | isidentifier |     -     |   -    | str.isidentifier()            |                                                                  |
+|  18.  | islower      |           |        |                               |                                                                  |
+|  19.  | isnumeric    |     -     |   -    | str.isnumeric()               |                                                                  |
+|  20.  | isprintable  |           |        |                               |                                                                  |
+|  21.  | isspace      |           |        |                               |                                                                  |
+|  22.  | istitle      |           |        |                               |                                                                  |
+|  23.  | isupper      |           |        |                               |                                                                  |
+|  24.  | join         |           |        |                               |                                                                  |
+|  25.  | ljust        |           |        |                               |                                                                  |
+|  26.  | lower        |           |        |                               |                                                                  |
+|  27.  | lstrip       |           |        |                               |                                                                  |
+|  28.  | maketrans    |           |        |                               |                                                                  |
+|  29.  | partition    |           |        |                               |                                                                  |
+|  30.  | removeprefix |           |        |                               |                                                                  |
+|  31.  | removesuffix |           |        |                               |                                                                  |
+|  32.  | replace      |           |        |                               |                                                                  |
+|  33.  | rfind        |           |        |                               |                                                                  |
+|  34.  | rindex       |           |        |                               |                                                                  |
+|  35.  | rjust        |           |        |                               |                                                                  |
+|  36.  | rpartition   |           |        |                               |                                                                  |
+|  37.  | rsplit       |           |        |                               |                                                                  |
+|  38.  | rstrip       |           |        |                               |                                                                  |
+|  39.  | split        |           |        |                               |                                                                  |
+|  40.  | splitlines   |           |        |                               |                                                                  |
+|  41.  | startswith   |           |        |                               |                                                                  |
+|  42.  | strip        |           |        |                               |                                                                  |
+|  43.  | swapcase     |           |        |                               |                                                                  |
+|  44.  | title        |           |        |                               |                                                                  |
+|  45.  | translate    |           |        |                               |                                                                  |
+|  46.  | upper        |     -     |   -    | str.upper()                   | Converts a string into upper case                                |
+|  47.  | zfill        |           |        |                               |                                                                  |
 
 ------

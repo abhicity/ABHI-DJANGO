@@ -1,6 +1,7 @@
 [TOC]
 
 # Activities
+# ___November___
 
 ## 01-11-2022, Tuesday
 
@@ -114,7 +115,7 @@
 - Table for a given start table number and end table number with initial and final multiplier value. [open](.//Nov/28-11-22-mon/activity3.html)
 
 ---
-
+# ___December___
 ## 02-12-2022, Friday
 - Static website. [open](Dec/02-12-22-fri/static_website.html)
    - Home page
@@ -127,13 +128,13 @@
 ---
 
 ## 06-12-2022, Tuesday
-- Convert Binary to Hexadecimal and Decimal Number.
+- Convert Binary to Hexadecimal and Decimal Number. [open](./Dec/06-12-22-tue/conversion.md)
    - 1000101101
    - 0111001
    - 111001110000
 - Comparison table for Javascript and Python data types. [open](./Dec/06-12-22-tue/comparision.md)
 - Similarities in JavaScript and Python. [open](./Dec/06-12-22-tue/similarities.md)
-- 2 and 3 should be written in markdown. Convert the same to HTML, apply css using Materialize css and Bootstrap alternatively. The above example should be mobile friendly page,
+- 2 and 3 should be written in markdown. Convert the same to HTML, apply css using Materialize css and Bootstrap alternatively. The above example should be mobile friendly page, [open materilize comparision](./Dec/06-12-22-tue/mc.html) / [open materilize similarities](./Dec/06-12-22-tue/ms.html)
 
 ---
 
@@ -200,6 +201,11 @@ Dictionary output:
 {'Delhi': 11, 'Mumbai': 22, 'Kolkata': 33, 'Chennai': 44, 'Hyderabad': 40, 'Bangalore': 80, 'Pune': 20, 'Ahmedabad': 79}
 
 Print even numbers for the range provided by the user.
+
+---
+
+## 22-12-2022, Thursday
+[Open Folder](../Activity/Dec/22-12-22-thu/activity_list.md)
 
 ---
 
