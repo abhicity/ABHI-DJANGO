@@ -29,3 +29,9 @@
 | 1      | dic1      | [Open](./folder/dic1.py)          |
 | 2      | dic2      | [Open](./folder/dic2.py)          |
 
+
+- Incomplete
+    - Str2
+    - lis2
+    - dir1
+    - dir2

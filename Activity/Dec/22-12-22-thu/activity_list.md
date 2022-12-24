@@ -1,3 +1,4 @@
+[TOC]
 ### Exercise Questions
 
 1. Write a program that calculates the number of seconds in a day. [open](folder/eq1.py)
@@ -12,7 +13,19 @@
     a. isidintifier() and isnumeric()
     b. find() and casefold()
     c. split() and splitlines()
-2. Write a function called rotate_word that takes a string and an integer as parameters, and that fucntion should return a new string containing the letters from the original string “rotated” by the given amount. For example, “cheer” rotated by 7 is “jolly” and “melon” rotated by −10 is “cubed”. [open](folder/str2.py)
+
+
+2. Write a function called rotate_word that takes a string and an integer as parameters, and that function should return a new string containing the letters from the original string “rotated” by the given amount. For example, “cheer” rotated by 7 is “jolly” and “melon” rotated by −10 is “cubed”.
+
+EG:
+cheer => ROTATED 7 TIMES => jolly
+
+c ==> rotate by 7 ==> j
+h ==> rotate by 7 ==> o
+o ==> rotate by 7 ==> l
+
+count letters from c to j it is 7
+count letters from h to o it is 7 [open](folder/str2.py)
 
 3.  Ask the user for a string, and then for a number. Print out that string, that many times. (For example, if the string is Python and the number is 3 you should print out PythonPythonPython.) [open](folder/str3.py)
 
