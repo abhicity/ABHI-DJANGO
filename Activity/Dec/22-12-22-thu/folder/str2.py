@@ -14,3 +14,12 @@
 
 #count letters from c to j it is 7
 #count letters from h to o it is 7
+
+
+string = input("Enter a string : ")
+number = int(input("Enter the rotate number : "))
+result = ""
+for i in string:
+    i = chr(ord(i)+number)
+    result += i
+print("rotated_word :",result)

@@ -12,3 +12,9 @@ def multiplication():
 
 result = multiplication()
 print(result)
+
+
+#OP
+#Enter a string : Python
+#Enter the number : 3
+#PythonPythonPython

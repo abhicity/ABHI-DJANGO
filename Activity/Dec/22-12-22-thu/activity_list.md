@@ -30,7 +30,7 @@ count letters from h to o it is 7 [open](folder/str2.py)
 3.  Ask the user for a string, and then for a number. Print out that string, that many times. (For example, if the string is Python and the number is 3 you should print out PythonPythonPython.) [open](folder/str3.py)
 
 
-4.  Write a program that parses a binary number to a decimal integer. For example, 11001 (1 * 24 + 1 * 23 + 0 * 22 + 0 * 21 + 1 * 20). [open](folder/str4.py)
+4.  Write a program that parses a binary number to a decimal integer. For example, 11001 (1 * 2^4 + 1 * 2^3 + 0 * 2^2 + 0 * 2^1 + 1 * 2^0). [open](folder/str4.py)
 
 
 5.  Write a program that accepts a string from the user and display the same string after removing vowels from it. [open](folder/str5.py)
