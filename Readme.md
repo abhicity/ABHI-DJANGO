@@ -2,7 +2,7 @@ ___Activities | Django : Full Stack Web Development.___
 
 ___
 ___
-👉🏻👉🏻  [Activity List](./Activity/activity.md)  👈🏻👈🏻
+👉🏻👉🏻  [Activity List](./Activity/readme.md)  👈🏻👈🏻
 
 ---
 ___
