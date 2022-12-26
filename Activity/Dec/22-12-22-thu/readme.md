@@ -32,6 +32,3 @@
 
 - Incomplete
     - Str2
-    - lis2
-    - dir1
-    - dir2
