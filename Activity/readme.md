@@ -32,7 +32,7 @@
 2. Favicon of self.[open](./Nov/04-11-22-fri/Favicon.html)
 3. Table.
    1. Billing. [open](./Nov/04-11-22-fri/Billing.html)
-   2. Pincodes of Bangalore. [open](.//.//Nov/03-11-22-thu/pincodes.html)
+   2. Pincodes of Bangalore. [open](.//.//Nov/04-11-22-fri/pincodes.html)
    3. Your wish. [open](./Nov/04-11-22-fri/Your_Self.md)
 
 ---
@@ -45,7 +45,7 @@
 
 ## 09-11-2022, Wednesday
 
-1. Draw the outline structure of the resume website. [open image1](./Nov/09-11-22-wed/Resume_Outline1.jpg)/[open image2](./Nov/09-11-22-wed/Resume_Outline2.jpg)
+1. Draw the outline structure of the resume website. [open](./Nov/09-11-22-wed/Resume_Outline/)
 2. Create a form to collect the data of the customer details. [open](./Nov/09-11-22-wed/Customer_Details.html)
    1. Name
    2. Address
@@ -154,14 +154,14 @@ String + None
 ---
 
 ## 12-12-2022, Monday
-1. List the Methods on the String.
-2. Give 3 Example for each method.
+1. List the Methods on the String. [open](./Dec/12-12-22-mon/string_list.md)
+2. Give 3 Example for each method. [open](./Dec/12-12-22-mon/string_methods.md)
 3. Prepare Image for the same in the inkscape.
 
 ---
 
 ## 13-12-2022, Tuesday
-1. Methods on List, tuple and Dictionary.
+1. Methods on List, tuple and Dictionary. 
 2. Examples on each.
 
 ---
@@ -172,35 +172,7 @@ String + None
 
 ---
 ## 16-12-2022, Friday
-1. Create a list of city name with STD code from the provided string below using str.strip module.
-
-STRING DATA: std_code = "11 Delhi, 22 Mumbai, 33 Kolkata, 44 Chennai, 40 Hyderabad, 80 Bangalore, 20 Pune, 79 Ahmedabad"
-
-LIST OUTPUT: std_code_list['11 Delhi', ' 22 Mumbai', ' 33 Kolkata', ' 44 Chennai', ' 40 Hyderabad', ' 80 Bangalore', ' 20 Pune', ' 79 Ahmedabad']
-
-
-2. Identify the email service providers for the list of email ids.
-
-emails = ['test1@gmail.com','test2@outlook.com','test3@yahoo.com','test4@gmx.com','test4@mail.com','test4@post.com']
-
-
-3. Find the Sum of Digits in a Number.
- Eg: number = 256
- Solution = 2+5+6 = 13
-
-
-4. Display the Fibonacci Sequences up to nth Term Where n is Provided by the User.
-Hint: In a Fibonacci sequence, the next number is obtained by adding the previous two numbers. The first two numbers of the Fibonacci sequence are 0  and 1.
-
-
-5. Check Whether a Number Is Prime or Not.
- 
-Create a dictionary from the list created with std code. keys should be city name and data should be STD code.
-
-Dictionary output:
-{'Delhi': 11, 'Mumbai': 22, 'Kolkata': 33, 'Chennai': 44, 'Hyderabad': 40, 'Bangalore': 80, 'Pune': 20, 'Ahmedabad': 79}
-
-Print even numbers for the range provided by the user.
+[Open Folder](.//.//Dec/16-12-22-fri/activity_list.md)
 
 ---
 
@@ -209,4 +181,20 @@ Print even numbers for the range provided by the user.
 
 ---
 
+## 27-12-2022, Tuesday
+1. without any parameter and return value
+2. with positional argument and no return value
+3. with positional argument and return value
+4. without positional argument and with a return value
+5. with position argument + n number of arguments(*args)
+6. with position argument + keyword argument.
+7. with position argument + n number of arguments(*args) + keyword argument.
+8. only keyword argument. (def func_name(*, keywords))
+9. n number of keyword argument. (def func_name(*, **kwargs))
+10. keyword argument + n number of keyword argument. (def func_name(*,name, age, **kwargs))
+11.  argument + n number of argument + keyword argument + n number of keyword argument. (def func_name(a, b, c,*arg,name, age, **kwargs))
 
+---
+
+## 29-12-2022, Thursday
+1. Different types of Errors in Python [open](./Dec/29-12-22-thu/errors.md)
