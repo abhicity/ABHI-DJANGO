@@ -25,9 +25,11 @@
 |  18.  | 13-12-22-tue | [open](./Activity/Dec/13-12-22-tue) |
 |  19.  | 14-12-22-wed | [open](./Activity/Dec/14-12-22-wed) |
 |  20.  | 16-12-22-fri | [open](./Activity/Dec/16-12-22-fri) |
-|  22.  | 22-12-22-thu | [open](./Activity/Dec/22-12-22-thu) |
-|  23.  | 27-12-22-tue | [open](./Activity/Dec/27-12-22-tue) |
-|  24.  | 29-12-22-tue | [open](./Activity/Dec/29-12-22-thu) |
+|  21.  | 22-12-22-thu | [open](./Activity/Dec/22-12-22-thu) |
+|  22.  | 27-12-22-tue | [open](./Activity/Dec/27-12-22-tue) |
+|  23.  | 29-12-22-tue | [open](./Activity/Dec/29-12-22-thu) |
+|  24.  | 30-12-22-fri | [open](./Activity/Dec/30-12-22-fri) |
+
 
 ---
 ___
@@ -91,12 +93,13 @@ ___
 |       |              |   c   | Find the Sum of Digits in a Number           | Python     | [open](./Activity/Dec/16-12-22-fri/sum.py)                   |
 |       |              |   d   | Fibonacci                                    | Python     | [open](./Activity/Dec/16-12-22-fri/fibonacci.py)             |
 |       |              |   e   | Check Whether a Number Is Prime or Not       | Python     | [open](./Activity/Dec/16-12-22-fri/prime.py)                 |
-|  22.  | 22-12-22-thu |   a   | Exercise Questions                           | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
+|  21.  | 22-12-22-thu |   a   | Exercise Questions                           | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
 |       |              |   b   | String                                       | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
 |       |              |   c   | List                                         | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
 |       |              |   d   | Dict                                         | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
-|  23.  | 27-12-22-tue |   a   | Functions                                    | Markdown   | [open](./Activity/Dec/27-12-22-tue/functions.md)             |
+|  22.  | 27-12-22-tue |   a   | Different ways of calling a function         | Markdown   | [open](./Activity/Dec/27-12-22-tue/functions.md)             |
 |  23.  | 29-12-22-tue |   a   | Different types of Errors in Python          | Markdown   | [open](./Activity/Dec/29-12-22-thu/errors.md)                |
+|  24.  | 30-12-22-fri |   a   | Resume Website                               | HTML       | [open](./Activity/Dec/30-12-22-fri/)                         |
 
 
 
@@ -166,6 +169,7 @@ ___
 17. Activate or display message if age is greater than 18 as of the current date. [open](./Activity/Dec/02-12-22-fri/age.html)
 18. Comparison table for Javascript and Python data types. [open](./Activity/Dec/06-12-22-tue/mc.html)
 19. Similarities in JavaScript and Python. [open](./Activity/Dec/06-12-22-tue/ms.html)
+20. Resume [open](./Activity/Dec/30-12-22-fri/resume.html)
 
 
 

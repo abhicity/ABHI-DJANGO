@@ -1,4 +1,7 @@
 [TOC]
+
+## Different ways of calling a function.
+
 ### 1. without any parameter and return value
 
 ### 2. with positional argument and no return value
