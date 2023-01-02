@@ -29,77 +29,81 @@
 |  22.  | 27-12-22-tue | [open](./Activity/Dec/27-12-22-tue) |
 |  23.  | 29-12-22-tue | [open](./Activity/Dec/29-12-22-thu) |
 |  24.  | 30-12-22-fri | [open](./Activity/Dec/30-12-22-fri) |
+|  25.  | 02-01-23-mon | [open](./Activity/Jan/02-01-23-mon) |
 
 
 ---
 ___
 
-| Sl No | Date         |   a   | File Names                                   | File Types | [Links](./Activity)                                          |
-| :---: | ------------ | :---: | -------------------------------------------- | ---------- | ------------------------------------------------------------ |
-|  1.   | 01-11-22-tue |   a   | File Extensions                              | Markdown   | [open](./Activity/Nov/01-11-22-tue/File%20Extensions.md)     |
-|       |              |   b   | Html Versions                                | Markdown   | [open](Activity/Nov/01-11-22-tue/Html_versions.md)           |
-|  2.   | 02-11-22-wed |   a   | whatwg                                       | Markdown   | [open](./Activity/Nov/02-11-22-wed/whatwg.md)                |
-|  3.   | 03-11-22-thu |   a   | HTML Resume                                  | HTML       | [open](./Activity/Nov/03-11-22-thu/Resume.html)              |
-|       |              |   b   | File extension list in html                  | HTML       | [open](./Activity/Nov/03-11-22-thu/File_Extension_List.html) |
-|  4.   | 04-11-22-fri |   a   | Create a resume using file structure         | HTML       | [open](./Activity/Nov/04-11-22-fri/Resume.html)              |
-|       |              |   b   | Favicon of self                              | HTML       | [open](./Activity/Nov/04-11-22-fri/Favicon.html)             |
-|       |              |   c   | Billing                                      | HTML       | [open](./Activity/Nov/04-11-22-fri/Favicon.html)             |
-|       |              |   d   | Pincodes                                     | HTML       | [open](./Activity/Nov/04-11-22-fri/pincodes.html)            |
-|       |              |   e   | Your wish                                    | Markdown   | [open](./Activity/Nov/04-11-22-fri/Your_Self.md)             |
-|  5.   | 09-11-22-wed |   a   | Custemer Details                             | HTML       | [open](./Activity/Nov/09-11-22-wed/Customer_Details.html)    |
-|       |              |   b   | Resume Outline                               | JPG        | [open](./Activity/Nov/09-11-22-wed/Resume_Outline/)          |
-|  6.   | 15-11-22-tue |   a   | Home page (Blog page)                        | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/blog.png)          |
-|       |              |   b   | Contact Us page                              | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/contact_us.png)    |
-|       |              |   c   | Login page                                   | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/login.png)         |
-|       |              |   d   | Sign up page                                 | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/sigup.png)         |
-|  7.   | 17-11-22-thu |   a   | Website Links                                | Markdown   | [open](./Activity/Nov/17-11-22-thu/website_links.md)         |
-|  8.   | 22-11-22-tue |   a   | Materilize Resume                            | HTML       | [open](./Activity/Nov/22-11-22-tue/m_resume.html)            |
-|       |              |   b   | Bootstrap Resume                             | HTML       | [open](./Activity/Nov/22-11-22-tue/b_resume.html)            |
-|  9.   | 23-11-22-wed |   a   | JavaScript Data types examples               | Markdow    | [open](./Activity/Nov/23-11-22-wed/javascript.md)            |
-|       |              |   b   | JavaScript Data types examples in HTML       | HTML       | [open](./Activity/Nov/23-11-22-wed/materilize.html)          |
-|  10.  | 24-11-22-thu |   a   | Var, Comments, Control Flow                  | Markdown   | [open](./Activity/Nov/24-11-22-thu/javascript.md)            |
-|       |              |   b   | Var, Comments, Control Flow                  | HTML       | [open](./Activity/Nov/24-11-22-thu/materilize.html)          |
-|  11.  | 25-11-22-fri |   a   | Loops                                        | Markdown   | [open](./Activity/Nov/25-11-22-fri/javascript.md)            |
-|       |              |   b   | Loops in HTML                                | HTML       | [open](./Activity/Nov/25-11-22-fri/materilize.html)          |
-|       |              |   c   | JavaScript Engine with its browser name      | Markdown   | [open](./Activity/Nov/25-11-22-fri/js_engines.md)            |
-|  12.  | 28-11-22-mon |   a   | Table Generator                              | HTML       | [open](./Activity/Nov/28-11-22-mon/activity1.html)           |
-|       |              |   b   | Fahrenheit to deg celsius and vice versa     | HTML       | [open](./Activity/Nov/28-11-22-mon/activity2.html)           |
-|       |              |   c   | Start table and End table                    | HTML       | [open](./Activity/Nov/28-11-22-mon/activity3.html)           |
-|  13.  | 02-12-22-mon |   a   | Static website                               | HTML       | [open](./Activity/Dec/02-12-22-fri/static_website.html)      |
-|       |              |   b   | application Form                             | HTML       | [open](./Activity/Dec/02-12-22-fri/application_form.html)    |
-|       |              |   c   | Age                                          | HTML       | [open](./Activity/Dec/02-12-22-fri/age.html)                 |
-|  14.  | 06-12-22-tue |   a   | Binary to Hexadecimal and Decimal Number     | Markdown   | [open](./Activity/Dec/06-12-22-tue/conversion.md)            |
-|       |              |   b   | Comparision for JS and Py Data types         | Markdown   | [open](./Activity/Dec/06-12-22-tue/comparision.md)           |
-|       |              |   c   | Similarities in JS and Py                    | Markdown   | [open](./Activity/Dec/06-12-22-tue/similarities.md)          |
-|       |              |   d   | Comparision for JS and Py Data types in HTML | HTML       | [open](./Activity/Dec/06-12-22-tue/mc.html)                  |
-|       |              |   e   | Similarities in JS and Py in HTML            | HTML       | [open](./Activity/Dec/06-12-22-tue/ms.html)                  |
-|  15.  | 08-12-22-thu |   a   | Add_operator                                 | Mark Down  | [open](./Activity/Dec/08-12-22-thu/add_operator.md)          |
-|       |              |   b   | Sub_operator                                 | Mark Down  | [open](./Activity/Dec/08-12-22-thu/sub_operator.md)          |
-|       |              |   c   | mul_operator                                 | Mark Down  | [open](./Activity/Dec/08-12-22-thu/mul_operator.md)          |
-|       |              |   d   | expo_operator                                | Mark Down  | [open](./Activity/Dec/08-12-22-thu/expo_operator.md)         |
-|       |              |   e   | div_operator                                 | Mark Down  | [open](./Activity/Dec/08-12-22-thu/div_operator.md)          |
-|       |              |   f   | table                                        | Mark Down  | [open](./Activity/Dec/08-12-22-thu/table.md)                 |
-|       |              |   g   | Differences btwn Py and JS                   | Mark Down  | [open](./Activity/Dec/08-12-22-thu/differences.md)           |
-|  16.  | 09-12-22-fri |   a   | -                                            | Markdown   | [open](./Activity/Dec/09-12-22-fri/)                         |
-|  17.  | 12-12-22-mon |   a   | String Table                                 | Markdown   | [open](./Activity/Dec/12-12-22-mon/string_list.md)           |
-|       |              |   b   | String Methods                               | Markdown   | [open](./Activity/Dec/12-12-22-mon/string_methods.md)        |
-|  18.  | 13-12-22-tue |   a   | List Table                                   | Markdown   | [open](./Activity/Dec/13-12-22-tue/list.md)                  |
-|       |              |   b   | List Methods                                 | Markdown   | [open](./Activity/Dec/13-12-22-tue/list_methods.md)          |
-|       |              |   c   | Dict Table                                   | Markdown   | [open](./Activity/Dec/13-12-22-tue/dict.md)                  |
-|       |              |   d   | Dict Methods                                 | Markdown   | [open](./Activity/Dec/13-12-22-tue/dict_methods.md)          |
-|  19.  | 14-12-22-wed |   a   | Article on input, print, dir                 | Markdown   | [open](./Activity/Dec/14-12-22-wed/article.md)               |
-|  20.  | 16-12-22-fri |   a   | Create a list of city name with STD code     | Python     | [open](./Activity/Dec/16-12-22-fri/city_list.py)             |
-|       |              |   b   | Identify the email service providers         | Python     | [open](./Activity/Dec/16-12-22-fri/emails.py)                |
-|       |              |   c   | Find the Sum of Digits in a Number           | Python     | [open](./Activity/Dec/16-12-22-fri/sum.py)                   |
-|       |              |   d   | Fibonacci                                    | Python     | [open](./Activity/Dec/16-12-22-fri/fibonacci.py)             |
-|       |              |   e   | Check Whether a Number Is Prime or Not       | Python     | [open](./Activity/Dec/16-12-22-fri/prime.py)                 |
-|  21.  | 22-12-22-thu |   a   | Exercise Questions                           | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
-|       |              |   b   | String                                       | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
-|       |              |   c   | List                                         | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
-|       |              |   d   | Dict                                         | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
-|  22.  | 27-12-22-tue |   a   | Different ways of calling a function         | Markdown   | [open](./Activity/Dec/27-12-22-tue/functions.md)             |
-|  23.  | 29-12-22-tue |   a   | Different types of Errors in Python          | Markdown   | [open](./Activity/Dec/29-12-22-thu/errors.md)                |
-|  24.  | 30-12-22-fri |   a   | Resume Website                               | HTML       | [open](./Activity/Dec/30-12-22-fri/)                         |
+| Sl No | Date         |   a   | File Names                                               | File Types | [Links](./Activity)                                          |
+| :---: | ------------ | :---: | -------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
+|  1.   | 01-11-22-tue |   a   | File Extensions                                          | Markdown   | [open](./Activity/Nov/01-11-22-tue/File%20Extensions.md)     |
+|       |              |   b   | Html Versions                                            | Markdown   | [open](Activity/Nov/01-11-22-tue/Html_versions.md)           |
+|  2.   | 02-11-22-wed |   a   | whatwg                                                   | Markdown   | [open](./Activity/Nov/02-11-22-wed/whatwg.md)                |
+|  3.   | 03-11-22-thu |   a   | HTML Resume                                              | HTML       | [open](./Activity/Nov/03-11-22-thu/Resume.html)              |
+|       |              |   b   | File extension list in html                              | HTML       | [open](./Activity/Nov/03-11-22-thu/File_Extension_List.html) |
+|  4.   | 04-11-22-fri |   a   | Create a resume using file structure                     | HTML       | [open](./Activity/Nov/04-11-22-fri/Resume.html)              |
+|       |              |   b   | Favicon of self                                          | HTML       | [open](./Activity/Nov/04-11-22-fri/Favicon.html)             |
+|       |              |   c   | Billing                                                  | HTML       | [open](./Activity/Nov/04-11-22-fri/Favicon.html)             |
+|       |              |   d   | Pincodes                                                 | HTML       | [open](./Activity/Nov/04-11-22-fri/pincodes.html)            |
+|       |              |   e   | Your wish                                                | Markdown   | [open](./Activity/Nov/04-11-22-fri/Your_Self.md)             |
+|  5.   | 09-11-22-wed |   a   | Custemer Details                                         | HTML       | [open](./Activity/Nov/09-11-22-wed/Customer_Details.html)    |
+|       |              |   b   | Resume Outline                                           | JPG        | [open](./Activity/Nov/09-11-22-wed/Resume_Outline/)          |
+|  6.   | 15-11-22-tue |   a   | Home page (Blog page)                                    | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/blog.png)          |
+|       |              |   b   | Contact Us page                                          | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/contact_us.png)    |
+|       |              |   c   | Login page                                               | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/login.png)         |
+|       |              |   d   | Sign up page                                             | PNG        | [open](./Activity/Nov/15-11-22-tue/Design/sigup.png)         |
+|  7.   | 17-11-22-thu |   a   | Website Links                                            | Markdown   | [open](./Activity/Nov/17-11-22-thu/website_links.md)         |
+|  8.   | 22-11-22-tue |   a   | Materilize Resume                                        | HTML       | [open](./Activity/Nov/22-11-22-tue/m_resume.html)            |
+|       |              |   b   | Bootstrap Resume                                         | HTML       | [open](./Activity/Nov/22-11-22-tue/b_resume.html)            |
+|  9.   | 23-11-22-wed |   a   | JavaScript Data types examples                           | Markdow    | [open](./Activity/Nov/23-11-22-wed/javascript.md)            |
+|       |              |   b   | JavaScript Data types examples in HTML                   | HTML       | [open](./Activity/Nov/23-11-22-wed/materilize.html)          |
+|  10.  | 24-11-22-thu |   a   | Var, Comments, Control Flow                              | Markdown   | [open](./Activity/Nov/24-11-22-thu/javascript.md)            |
+|       |              |   b   | Var, Comments, Control Flow                              | HTML       | [open](./Activity/Nov/24-11-22-thu/materilize.html)          |
+|  11.  | 25-11-22-fri |   a   | Loops                                                    | Markdown   | [open](./Activity/Nov/25-11-22-fri/javascript.md)            |
+|       |              |   b   | Loops in HTML                                            | HTML       | [open](./Activity/Nov/25-11-22-fri/materilize.html)          |
+|       |              |   c   | JavaScript Engine with its browser name                  | Markdown   | [open](./Activity/Nov/25-11-22-fri/js_engines.md)            |
+|  12.  | 28-11-22-mon |   a   | Table Generator                                          | HTML       | [open](./Activity/Nov/28-11-22-mon/activity1.html)           |
+|       |              |   b   | Fahrenheit to deg celsius and vice versa                 | HTML       | [open](./Activity/Nov/28-11-22-mon/activity2.html)           |
+|       |              |   c   | Start table and End table                                | HTML       | [open](./Activity/Nov/28-11-22-mon/activity3.html)           |
+|  13.  | 02-12-22-mon |   a   | Static website                                           | HTML       | [open](./Activity/Dec/02-12-22-fri/static_website.html)      |
+|       |              |   b   | application Form                                         | HTML       | [open](./Activity/Dec/02-12-22-fri/application_form.html)    |
+|       |              |   c   | Age                                                      | HTML       | [open](./Activity/Dec/02-12-22-fri/age.html)                 |
+|  14.  | 06-12-22-tue |   a   | Binary to Hexadecimal and Decimal Number                 | Markdown   | [open](./Activity/Dec/06-12-22-tue/conversion.md)            |
+|       |              |   b   | Comparision for JS and Py Data types                     | Markdown   | [open](./Activity/Dec/06-12-22-tue/comparision.md)           |
+|       |              |   c   | Similarities in JS and Py                                | Markdown   | [open](./Activity/Dec/06-12-22-tue/similarities.md)          |
+|       |              |   d   | Comparision for JS and Py Data types in HTML             | HTML       | [open](./Activity/Dec/06-12-22-tue/mc.html)                  |
+|       |              |   e   | Similarities in JS and Py in HTML                        | HTML       | [open](./Activity/Dec/06-12-22-tue/ms.html)                  |
+|  15.  | 08-12-22-thu |   a   | Add_operator                                             | Mark Down  | [open](./Activity/Dec/08-12-22-thu/add_operator.md)          |
+|       |              |   b   | Sub_operator                                             | Mark Down  | [open](./Activity/Dec/08-12-22-thu/sub_operator.md)          |
+|       |              |   c   | mul_operator                                             | Mark Down  | [open](./Activity/Dec/08-12-22-thu/mul_operator.md)          |
+|       |              |   d   | expo_operator                                            | Mark Down  | [open](./Activity/Dec/08-12-22-thu/expo_operator.md)         |
+|       |              |   e   | div_operator                                             | Mark Down  | [open](./Activity/Dec/08-12-22-thu/div_operator.md)          |
+|       |              |   f   | table                                                    | Mark Down  | [open](./Activity/Dec/08-12-22-thu/table.md)                 |
+|       |              |   g   | Differences btwn Py and JS                               | Mark Down  | [open](./Activity/Dec/08-12-22-thu/differences.md)           |
+|  16.  | 09-12-22-fri |   a   | -                                                        | Markdown   | [open](./Activity/Dec/09-12-22-fri/)                         |
+|  17.  | 12-12-22-mon |   a   | String Table                                             | Markdown   | [open](./Activity/Dec/12-12-22-mon/string_list.md)           |
+|       |              |   b   | String Methods                                           | Markdown   | [open](./Activity/Dec/12-12-22-mon/string_methods.md)        |
+|  18.  | 13-12-22-tue |   a   | List Table                                               | Markdown   | [open](./Activity/Dec/13-12-22-tue/list.md)                  |
+|       |              |   b   | List Methods                                             | Markdown   | [open](./Activity/Dec/13-12-22-tue/list_methods.md)          |
+|       |              |   c   | Dict Table                                               | Markdown   | [open](./Activity/Dec/13-12-22-tue/dict.md)                  |
+|       |              |   d   | Dict Methods                                             | Markdown   | [open](./Activity/Dec/13-12-22-tue/dict_methods.md)          |
+|  19.  | 14-12-22-wed |   a   | Article on input, print, dir                             | Markdown   | [open](./Activity/Dec/14-12-22-wed/article.md)               |
+|  20.  | 16-12-22-fri |   a   | Create a list of city name with STD code                 | Python     | [open](./Activity/Dec/16-12-22-fri/city_list.py)             |
+|       |              |   b   | Identify the email service providers                     | Python     | [open](./Activity/Dec/16-12-22-fri/emails.py)                |
+|       |              |   c   | Find the Sum of Digits in a Number                       | Python     | [open](./Activity/Dec/16-12-22-fri/sum.py)                   |
+|       |              |   d   | Fibonacci                                                | Python     | [open](./Activity/Dec/16-12-22-fri/fibonacci.py)             |
+|       |              |   e   | Check Whether a Number Is Prime or Not                   | Python     | [open](./Activity/Dec/16-12-22-fri/prime.py)                 |
+|  21.  | 22-12-22-thu |   a   | Exercise Questions                                       | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
+|       |              |   b   | String                                                   | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
+|       |              |   c   | List                                                     | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
+|       |              |   d   | Dict                                                     | Python     | [open](./Activity/Dec/22-12-22-thu/activity_list.md)         |
+|  22.  | 27-12-22-tue |   a   | Different ways of calling a function                     | Markdown   | [open](./Activity/Dec/27-12-22-tue/functions.md)             |
+|  23.  | 29-12-22-tue |   a   | Different types of Errors in Python                      | Markdown   | [open](./Activity/Dec/29-12-22-thu/errors.md)                |
+|  24.  | 30-12-22-fri |   a   | Resume Website                                           | HTML       | [open](./Activity/Dec/30-12-22-fri/)                         |
+|  25.  | 02-01-23-mon |   a   | print the file name and extension as a table format      | Python     | [open](./Activity/Jan/02-01-23-mon/ext1.py)                  |
+|       |              |   b   | Create a tables file                                     | Python     | [open](./Activity/Jan/02-01-23-mon/tables2.py)               |
+|       |              |   c   | Create table file from the number list given by the user | Python     | [open](./Activity/Jan/02-01-23-mon/tables3.py)               |
 
 
 
@@ -207,6 +211,33 @@ ___
 9. Dict
    1. Write Pythonic code to create a dictionary that accepts a country name as a key and its capital city as the value. [open](./Activity/Dec/22-12-22-thu/folder/dic1.py)
    2. Display the example 1 output details in sorted order. [open](./Activity/Dec/22-12-22-thu/folder/dic2.py)
+
+10. print the file name and extension as a table format.
+     files:
+    1. text.txt
+    2. create.py
+    3. style.css
+    4. custom.js
+    5. intro.md
+    6. introduction
+    7. test.min.css
+    8. testing.c
+    9. chapters
+    10. temp
+Eg: File Name : Extension temporary : md profile : jpg [open](./Activity/Jan/02-01-23-mon/ext1.py)
+
+11. Create a tables file.
+    1. table_1.txt
+    2. table_2.txt
+    3. ...
+    4. table_50.txt
+    5. Each table file should have the table for the number specified at the last. ex: table_5.txt
+       1. 5x1=5
+       2. ...
+       3. 5x10=50 [open](./Activity/Jan/02-01-23-mon/tables2.py)
+
+12. Create table file from the number list given by the user. [open](./Activity/Jan/02-01-23-mon/tables3.py)
+
 
 ---
 ___

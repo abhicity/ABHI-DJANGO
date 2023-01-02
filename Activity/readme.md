@@ -196,3 +196,34 @@ String + None
 
 ----
 
+# ___January___
+## 02-01-2023, Monday
+1. print the file name and extension as a table format. 
+   files:
+   1. text.txt
+   2. create.py
+   3. style.css
+   4. custom.js
+   5. intro.md
+   6. introduction
+   7. test.min.css
+   8. testing.c
+   9. chapters
+   10. temp
+Eg: File Name : Extension temporary : md profile : jpg [open](./Jan/02-01-23-mon/ext1.py)
+
+1. Create a tables file.
+   1. table_1.txt
+   2. table_2.txt
+   3. ...
+   4. table_50.txt
+   5. Each table file should have the table for the number specified at the last. ex: table_5.txt
+      1. 5x1=5
+      2. ...
+      3. 5x10=50 [open](./Jan/02-01-23-mon/tables2.py)
+
+2. Create table file from the number list given by the user. [open](./Jan/02-01-23-mon/tables3.py)
+
+---
+
+
