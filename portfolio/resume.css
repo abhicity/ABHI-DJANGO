@@ -5,3 +5,29 @@
     color: white;
     font-size: 50px;
 }
+
+.about {
+    padding: 100px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 50px;
+}
+
+.about_txt {
+    color: white;
+    font-size: 40px;
+}
+
+
+.contact {
+    padding: 100px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 50px;
+}
+
+.contact_scanner {
+    text-align: center;
+}

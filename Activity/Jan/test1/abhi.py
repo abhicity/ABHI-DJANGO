@@ -13,14 +13,10 @@
 
 
 
-files = ['text.txt', 'create.py', 'style.css', 'custom.js', 'intro.md', 'introduction', 'test.min.css', 'testing.c', 'chapters', 'temp']
-
-
-
+#files = ['text.txt', 'create.py', 'style.css', 'custom.js', 'intro.md', 'introduction', 'test.min.css', 'testing.c', 'chapters', 'temp']
 
 
 #print(__name__)
 #print("* Starting Line *")
 #def abhi_function(name, function):
 #    print(f"Hello {name}, Welcome to my {function}.")
-
