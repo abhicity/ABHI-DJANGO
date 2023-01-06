@@ -45,7 +45,7 @@
 
 ## 09-11-2022, Wednesday
 
-1. Draw the outline structure of the resume website. [open](./Nov/09-11-22-wed/Resume_Outline/)
+1. Draw the outline structure of the resume website. [open jpg1](./Nov/09-11-22-wed/Resume_Outline/RO1.jpg) [open jpg1](./Nov/09-11-22-wed/Resume_Outline/RO2.jpg)
 2. Create a form to collect the data of the customer details. [open](./Nov/09-11-22-wed/Customer_Details.html)
    1. Name
    2. Address
@@ -62,7 +62,7 @@
 ## 15-11-2022, Tuesday
 
 1. Create the Outline of BLOG website.
-   1. Home page (Blog page) [Home Blog](../../../Design/blog.png)
+   1. Home page (Blog page) [Home Blog](./Nov/15-11-22-tue/Design/blog.png)
    2. Contact Us page. [Contact Us](../../../Design/contact_us.png)
    3. Login and Sign up page. [Login](./../../../Design/login.png) / [Sign up](./../../../Design/signup.png)
 
@@ -226,4 +226,28 @@ Eg: File Name : Extension temporary : md profile : jpg [open](./Jan/02-01-23-mon
 
 ---
 
+## 05-01-2023, Thursday
+
+1. Blog Website.
+   1. blog list
+   2. blog detail
+   3. search
+2. Accounts
+   1. logo
+   2. naming
+   3. pages
+      1. home
+      2. about
+      3. contact
+      4. dashboard
+         1. bill list
+            1. print
+            2. edit
+            3. delete
+            4. search
+         2. bill entry
+      5. visiting card.
+ 
+
+---
 

@@ -13,3 +13,13 @@
 
 
 
+files = 'text.txt, create.py, style.css, custom.js, intro.md, introduction, test.min.css, testing.c, chapters, temp'
+
+x = files.split(",")
+
+print(x)
+
+i = x[0].split(".")
+j = x[2].split(".")
+print(i, sep=":")
+print(j, sep=":")
