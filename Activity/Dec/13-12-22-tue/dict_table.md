@@ -1,0 +1,13 @@
+| Sl No | Methods    | Parameter | Defeat | Syntax                          | Description                                                                                                 |
+| :---: | ---------- | :-------: | :----: | ------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+|  1.   | clear      |           |        | dict.clear()                    | Removes all the elements from the dictionary                                                                |
+|  2.   | copy       |           |        | dict.copy()                     | Returns a copy of the dictionary                                                                            |
+|  3.   | fromkeys   |           |        | dict.fromkeys(keys, value)      | Returns a dictionary with the specified keys and value                                                      |
+|  4.   | get        |           |        | dict.get(keyname, value)        | Returns the value of the specified key                                                                      |
+|  5.   | items      |           |        | dict.items()                    | Returns a list containing a tuple for each key value pair                                                   |
+|  6.   | keys       |           |        | dict.keys()                     | Returns a list containing the dictionary's keys                                                             |
+|  7.   | pop        |           |        | dict.pop(keyname, defaultvalue) | Removes the element with the specified key                                                                  |
+|  8.   | popitem    |           |        | dict.popitem()                  | Removes the last inserted key-value pair                                                                    |
+|  9.   | setdefault |           |        | dict.setdefault(keyname, value) | Returns the value of the specified key. If the key does not exist: insert the key, with the specified value |
+|  10.  | update     |           |        | dict.update(iterable)           | Updates the dictionary with the specified key-value pairs                                                   |
+|  11.  | values     |           |        | dict.values()                   | Returns a list of all the values in the dictionary                                                          |

@@ -154,21 +154,21 @@ String + None
 ---
 
 ## 12-12-2022, Monday
-1. List the Methods on the String. [open](./Dec/12-12-22-mon/string_list.md)
+1. List the Methods on the String. [open](./Dec/12-12-22-mon/string_table.md)
 2. Give 3 Example for each method. [open](./Dec/12-12-22-mon/string_methods.md)
 3. Prepare Image for the same in the inkscape.
 
 ---
 
 ## 13-12-2022, Tuesday
-1. Methods on List, tuple and Dictionary. 
+1. Methods on List, tuple and Dictionary. [open List](./Dec/13-12-22-tue/list_methods.md), [open Tuple](./Dec/13-12-22-tue/tuple_methods.md), [open Dict](./Dec/13-12-22-tue/dict_methods.md)
 2. Examples on each.
 
 ---
 
 ## 14-12-2022, Wednesday
 1. Examples of Condition flow statement in js replicate in python code.
-2. Article on input, print, dir, help built-in methods/functions.
+2. Article on input, print, dir, help built-in methods/functions. [open](./Dec/14-12-22-wed/article.md)
 
 ---
 ## 16-12-2022, Friday

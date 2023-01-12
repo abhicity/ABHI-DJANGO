@@ -1,4 +1,37 @@
-👉🏻👉🏻  [Activity List](./Activity/readme.md)  👈🏻👈🏻
+[TOC]
+
+# Doughts
+
+- [x] Post
+  - push messages from form.
+  -  Ref Link : https://formspree.io/f/mayadege
+
+---
+
+- [ ] importing in CSS and Python.
+  -  @ 
+
+---
+
+- [ ] Dictionary Methods
+  - fromkeys()
+
+---
+
+- [ ] String Methods.
+  - string.expandtabs()
+  - string.format_map()
+  - string.join()
+  - string.maketrans()
+  - string.translate()
+  - string.removeprefix()
+  - string.removesuffix()
+---
+
+
+
+
+# 👉🏻👉🏻  [Activity List](./Activity/readme.md)  👈🏻👈🏻
 
 ---
 ---
@@ -84,12 +117,14 @@ ___
 |       |              |   f   | table                                                    | Markdown         | [open](./Activity/Dec/08-12-22-thu/table.md)                 |
 |       |              |   g   | Differences btwn Py and JS                               | Markdown         | [open](./Activity/Dec/08-12-22-thu/differences.md)           |
 |  16.  | 09-12-22-fri |   a   | -                                                        | Markdown         | [open](./Activity/Dec/09-12-22-fri/)                         |
-|  17.  | 12-12-22-mon |   a   | String Table                                             | Markdown         | [open](./Activity/Dec/12-12-22-mon/string_list.md)           |
+|  17.  | 12-12-22-mon |   a   | String Table                                             | Markdown         | [open](./Activity/Dec/12-12-22-mon/string_table.md)          |
 |       |              |   b   | String Methods                                           | Markdown         | [open](./Activity/Dec/12-12-22-mon/string_methods.md)        |
-|  18.  | 13-12-22-tue |   a   | List Table                                               | Markdown         | [open](./Activity/Dec/13-12-22-tue/list.md)                  |
+|  18.  | 13-12-22-tue |   a   | List Table                                               | Markdown         | [open](./Activity/Dec/13-12-22-tue/list_table.md)            |
 |       |              |   b   | List Methods                                             | Markdown         | [open](./Activity/Dec/13-12-22-tue/list_methods.md)          |
-|       |              |   c   | Dict Table                                               | Markdown         | [open](./Activity/Dec/13-12-22-tue/dict.md)                  |
+|       |              |   c   | Dict Table                                               | Markdown         | [open](./Activity/Dec/13-12-22-tue/dict_table.md)            |
 |       |              |   d   | Dict Methods                                             | Markdown         | [open](./Activity/Dec/13-12-22-tue/dict_methods.md)          |
+|       |              |   e   | Tuple Table                                              | Markdown         | [open](./Activity/Dec/13-12-22-tue/tuple_table.md)           |
+|       |              |   f   | Tuple Methods                                            | Markdown         | [open](./Activity/Dec/13-12-22-tue/tuple_methods.md)         |
 |  19.  | 14-12-22-wed |   a   | Article on input, print, dir                             | Markdown         | [open](./Activity/Dec/14-12-22-wed/article.md)               |
 |  20.  | 16-12-22-fri |   a   | Create a list of city name with STD code                 | Python           | [open](./Activity/Dec/16-12-22-fri/city_list.py)             |
 |       |              |   b   | Identify the email service providers                     | Python           | [open](./Activity/Dec/16-12-22-fri/emails.py)                |
@@ -179,44 +214,47 @@ ___
     1. List Table [open](./Activity/Dec/13-12-22-tue/list.md)          
     2. List Methods [open](./Activity/Dec/13-12-22-tue/list_methods.md)  
 9.  Dict
-    1.  Dict Table [open](./Activity/Dec/13-12-22-tue/dict.md)          
-    2. Dict Methods [open](./Activity/Dec/13-12-22-tue/dict_methods.md)  
-10. Article on input, print, dir, help built-in methods/functions [open](./Activity/Dec/14-12-22-wed/article.md) 
-11. Create a list of city name with STD code from the provided string below using str.strip module. [open](./Activity/Dec/16-12-22-fri/city_list.py)
-12. Identify the email service providers for the list of email ids. [open](./Activity/Dec/16-12-22-fri/emails.py)
-13. Find the Sum of Digits in a Number. [open](./Activity/Dec/16-12-22-fri/sum.py)
-14. Display the Fibonacci Sequences up to nth Term Where n is Provided by the User. [open](./Activity/Dec/16-12-22-fri/fibonacci.py)
-15. Check Whether a Number Is Prime or Not. [open](./Activity/Dec/16-12-22-fri/prime.py)
-16. Exercise Questions
+    1. Dict Table [open](./Activity/Dec/13-12-22-tue/dict.md)          
+    2. Dict Methods [open](./Activity/Dec/13-12-22-tue/dict_methods.md)
+10. Tuple
+    1. Tuple Table [open](./Activity/Dec/13-12-22-tue/tuple_table.md)          
+    2. Tuple Methods [open](./Activity/Dec/13-12-22-tue/tuple_methods.md)
+11. Article on input, print, dir, help built-in methods/functions [open](./Activity/Dec/14-12-22-wed/article.md) 
+12. Create a list of city name with STD code from the provided string below using str.strip module. [open](./Activity/Dec/16-12-22-fri/city_list.py)
+13. Identify the email service providers for the list of email ids. [open](./Activity/Dec/16-12-22-fri/emails.py)
+14. Find the Sum of Digits in a Number. [open](./Activity/Dec/16-12-22-fri/sum.py)
+15. Display the Fibonacci Sequences up to nth Term Where n is Provided by the User. [open](./Activity/Dec/16-12-22-fri/fibonacci.py)
+16. Check Whether a Number Is Prime or Not. [open](./Activity/Dec/16-12-22-fri/prime.py)
+17. Exercise Questions
    1. Write a program that calculates the number of seconds in a day. [open](./Activity/Dec/22-12-22-thu/folder/eq1.py)
    2. A train travels 3,000 meters in 9000 seconds. Write a program to find the speed of the train. [open](./Activity/Dec/22-12-22-thu/folder/eq2.py)
    3. Write a program to read the marks of three subjects and find the average of them. [open](./Activity/Dec/22-12-22-thu/folder/eq3.py)
    4. Write a program to read two integers and perform arithmetic operations [open](./Activity/Dec/22-12-22-thu/folder/eq4.py)
-17. String
-   1. Differentiate between the following. [open](./Activity/Dec/22-12-22-thu/folder/str1.md)
+18. String
+   1. Differentiate between the following. [open](./Activity/ Dec/22-12-22-thu/folder/str1.md)
     a. isidintifier() and isnumeric()
     b. find() and casefold()
     c. split() and splitlines()
-   2. Write a function called rotate_word that takes a string and an integer as parameters, and that function should return a new string containing the letters from the original string “rotated” by the given amount. For example, “cheer” rotated by 7 is “jolly” and “melon” rotated by −10 is “cubed”. [open](./Activity/Dec/22-12-22-thu/folder/str2.py)
-   3.  Ask the user for a string, and then for a number. Print out that string, that many times. [open](./Activity/Dec/22-12-22-thu/folder/str3.py)
-   4.  Write a program that parses a binary number to a decimal integer. [open](./Activity/Dec/22-12-22-thu/folder/str4.py)
-   5.  Write a program that accepts a string from the user and display the same string after removing vowels from it. [open](./Activity/Dec/22-12-22-thu/folder/str5.py)
-   6.  Write a function to insert a string in the middle of the string. [open](./Activity/Dec/22-12-22-thu/folder/str6.py)
-18. List
+   2. Write a function called rotate_word that takes a string and an integer as parameters, and that function should   return a new string containing the letters from the  original string “rotated” by the given amount. For example,  “cheer” rotated by 7 is “jolly” and “melon” rotated by −10   is “cubed”. [open](./Activity/Dec/22-12-22-thu/folder/str2.py)
+   3.  Ask the user for a string, and then for a number. Print   out that string, that many times. [open](./Activity/Dec/22-12-22-thu/folder/str3.py)
+   4.  Write a program that parses a binary number to a decimal integer. [open](./Activity/Dec/22-12-22-thu/folder/ str4.py)
+   5.  Write a program that accepts a string from the user and   display the same string after removing vowels from it.  [open](./Activity/Dec/22-12-22-thu/folder/str5.py)
+   6.  Write a function to insert a string in the middle of   the string. [open](./Activity/Dec/22-12-22-thu/folder/str6.py)
+19. List
    1. Differentiate between the following: [open](./Activity/Dec/22-12-22-thu/folder/lis1.md)
     a. pop() and remove() methods of list.
     b. Del statement and pop() method of list.
     c. append() and insert() methods of list.
    2. Write a program that prints the maximum value of the second half of the list. [open](./Activity/Dec/22-12-22-thu/folder/lis2.py)
    3. Write a program that creates a list of numbers 1–100 that are either divisible by 5 or 7. [open](./Activity/Dec/22-12-22-thu/folder/lis3.py)
-19. Dict
+20. Dict
    1. Write Pythonic code to create a dictionary that accepts a country name as a key and its capital city as the value. [open](./Activity/Dec/22-12-22-thu/folder/dic1.py)
    2. Display the example 1 output details in sorted order. [open](./Activity/Dec/22-12-22-thu/folder/dic2.py)
-20. Different ways of calling a function. [open](./Activity/Dec/27-12-22-tue/functions.md)
-21. Different types of Errors in Python [open](./Activity/Dec/29-12-22-thu/errors.md)
-22. print the file name and extension as a table format. [open](./Activity/Jan/02-01-23-mon/ext1.py)
-23. Create a tables file, Each table file should have the table for the number specified at the last. [open](./Activity/Jan/02-01-23-mon/tables2.py)
-24. Create table file from the number list given by the user. [open](./Activity/Jan/02-01-23-mon/tables3.py)
+21. Different ways of calling a function. [open](./Activity/Dec/27-12-22-tue/functions.md)
+22. Different types of Errors in Python [open](./Activity/Dec/29-12-22-thu/errors.md)
+23. print the file name and extension as a table format. [open](./Activity/Jan/02-01-23-mon/ext1.py)
+24. Create a tables file, Each table file should have the table for the number specified at the last. [open](./Activity/Jan/02-01-23-mon/tables2.py)
+25. Create table file from the number list given by the user. [open](./Activity/Jan/02-01-23-mon/tables3.py)
 
 
 ## PNG
