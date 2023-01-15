@@ -2,6 +2,7 @@
    1. blog list
    2. blog detail
    3. search
+   
 2. Accounts
    1. logo
    2. naming
@@ -21,11 +22,16 @@
 
 
 
-| Sl No | Title        | Links |
-| ----- | ------------ | ----- |
-| 1     | Blog Website |       |
+| Sl No | Title | Links                                                 |
+| ----- | ----- | ----------------------------------------------------- |
+| 1     | Blog  | [open](Blog/blog1.png)                                |
+| 2     | Blog  | [View Live Preview](https://abhicity.github.io/Blog/) |
 
-| Sl No | Title    | Links |
-| ----- | -------- | ----- |
-| 1     | Accounts |       |
-
+| Sl No | Title                             | Links                       |
+| ----- | --------------------------------- | --------------------------- |
+| -     | Accounts                          | -                           |
+| 1     | Logo                              |                             |
+| 2     | Naming                            |                             |
+| 3     | Pages (Home, contact)             |                             |
+| 4     | Dashboard (Bill List, Bill Entry) |                             |
+| 5     | Visiting Card                     | [open](./Accounts/temp.png) |
