@@ -9,7 +9,7 @@
 
 ---
 
-- [ ] importing in CSS and Python.
+- [ ] importing in CSS.
   -  @ 
 
 ---
