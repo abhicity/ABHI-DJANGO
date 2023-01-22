@@ -30,8 +30,8 @@
 | Sl No | Title                             | Links                                                                               |
 | ----- | --------------------------------- | ----------------------------------------------------------------------------------- |
 | -     | Accounts                          | [open materilize](./Accounts/Materilize/) / [open Bootstrap](./Accounts/bootstrap/) |
-| 1     | Logo                              |                                                                                     |
-| 2     | Naming                            |                                                                                     |
-| 3     | Pages (Home, contact)             |                                                                                     |
-| 4     | Dashboard (Bill List, Bill Entry) |                                                                                     |
-| 5     | Visiting Card                     |                                                                                     |
+| 1     | Logo                              | [open](./Accounts/Materilize/logo.svg)                                              |
+| 2     | Naming                            | CM Care Center                                                                      |
+| 3     | Pages (Home, contact)             | Done                                                                                |
+| 4     | Dashboard (Bill List, Bill Entry) | -                                                                                   |
+| 5     | Visiting Card                     | [open](./Accounts/Materilize/visiting_card.svg)                                     |

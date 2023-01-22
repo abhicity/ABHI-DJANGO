@@ -11,36 +11,6 @@ header>a {
 }
 
 
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Verdana, sans-serif;
-}
-
-.mySlides {
-    display: none;
-}
-
-img {
-    vertical-align: middle;
-}
-
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -107,67 +77,6 @@ img {
     }
 }
 
-
-
-
-
-
-.season_tabs {
-    position: relative;
-    min-height: 360px;
-    /* This part sucks */
-    clear: both;
-    margin: 25px 0;
-}
-
-.season_tab {
-    float: left;
-    clear: both;
-    width: 286px;
-}
-
-.season_tab label {
-    background: #eee;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-left: -1px;
-    font-size: 21px;
-    vertical-align: middle;
-    position: relative;
-    left: 1px;
-    width: 264px;
-    height: 68px;
-    display: table-cell;
-}
-
-.season_tab [type=radio] {
-    display: none;
-}
-
-.season_content {
-    position: absolute;
-    top: 0;
-    left: 286px;
-    background: white;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
-    border: 1px solid #ccc;
-}
-
-.season_content span {
-    animation: 0.5s ease-out 0s 1 slideInFromTop;
-}
-
-[type=radio]:checked~label {
-    background: white;
-    border-bottom: 2px solid #8bc34a;
-    z-index: 2;
-}
-
-[type=radio]:checked~label~.season_content {
-    z-index: 1;
-}
 
 /*Gallery*/
 /* Three image containers (use 25% for four, and 50% for two, etc) */
