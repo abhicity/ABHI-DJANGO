@@ -188,4 +188,10 @@ img {
     border: 5px solid #555;
 }
 
+.btn,
+.btn-large,
+.btn-small {
+    background-color: red;
+}
+
 /*END of Gallery*/

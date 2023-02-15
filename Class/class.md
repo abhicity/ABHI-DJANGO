@@ -9,17 +9,17 @@
 
 ---
 
-- [ ] importing in CSS.
+- [x] importing in CSS.
   -  @ 
 
 ---
 
-- [ ] Dictionary Methods
+- [x] Dictionary Methods
   - fromkeys()
 
 ---
 
-- [ ] String Methods.
+- [x] String Methods.
   - string.expandtabs()
   - string.format_map()
   - string.join()
@@ -57,5 +57,4 @@ TypeError: if you give only one argument to maketrans it must be a dict
 >>> op
 {65: 80}
 ```
-- 
 ---

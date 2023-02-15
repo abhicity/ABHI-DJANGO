@@ -1,69 +1,45 @@
 [TOC]
 
 # Doughts
-
-- [x] Post
-  - push messages from form.
-  -  Ref Link : https://formspree.io/f/mayadege
+[OPEN](./Class/class.md)
 
 ---
-
-- [ ] importing in CSS.
-  -  @ 
-
 ---
-
-- [ ] Dictionary Methods
-  - fromkeys()
-
----
-
-- [ ] String Methods.
-  - string.expandtabs()
-  - string.format_map()
-  - string.join()
-  - string.maketrans()
-  - string.translate()
-  - string.removeprefix()
-  - string.removesuffix()
----
-
-
-
 
 # 👉🏻👉🏻  [Activity List](./Activity/readme.md)  👈🏻👈🏻
 
 ---
 ---
 
-| Sl No | Date         | [Links](./Activity)                 |
-| :---: | ------------ | ----------------------------------- |
-|  1.   | 01-11-22-tue | [open](./Activity/Nov/01-11-22-tue) |
-|  2.   | 02-11-22-wed | [open](./Activity/Nov/02-11-22-wed) |
-|  3.   | 03-11-22-thu | [open](./Activity/Nov/03-11-22-thu) |
-|  4.   | 04-11-22-fri | [open](./Activity/Nov/04-11-22-fri) |
-|  5.   | 09-11-22-wed | [open](./Activity/Nov/09-11-22-wed) |
-|  6.   | 15-11-22-tue | [open](./Activity/Nov/15-11-22-tue) |
-|  7.   | 17-11-22-thu | [open](./Activity/Nov/17-11-22-thu) |
-|  8.   | 22-11-22-tue | [open](./Activity/Nov/22-11-22-tue) |
-|  9.   | 23-11-22-wed | [open](./Activity/Nov/23-11-22-wed) |
-|  10.  | 24-11-22-thu | [open](./Activity/Nov/24-11-22-thu) |
-|  11.  | 25-11-22-fri | [open](./Activity/Nov/25-11-22-fri) |
-|  12.  | 28-11-22-mon | [open](./Activity/Nov/28-11-22-mon) |
-|  13.  | 02-12-22-mon | [open](./Activity/Dec/02-12-22-mon) |
-|  14.  | 06-12-22-tue | [open](./Activity/Dec/06-12-22-tue) |
-|  15.  | 08-12-22-thu | [open](./Activity/Dec/08-12-22-thu) |
-|  16.  | 09-12-22-fri | [open](./Activity/Dec/09-12-22-fri) |
-|  17.  | 12-12-22-mon | [open](./Activity/Dec/12-12-22-mon) |
-|  18.  | 13-12-22-tue | [open](./Activity/Dec/13-12-22-tue) |
-|  19.  | 14-12-22-wed | [open](./Activity/Dec/14-12-22-wed) |
-|  20.  | 16-12-22-fri | [open](./Activity/Dec/16-12-22-fri) |
-|  21.  | 22-12-22-thu | [open](./Activity/Dec/22-12-22-thu) |
-|  22.  | 27-12-22-tue | [open](./Activity/Dec/27-12-22-tue) |
-|  23.  | 29-12-22-tue | [open](./Activity/Dec/29-12-22-thu) |
-|  24.  | 30-12-22-fri | [open](./Activity/Dec/30-12-22-fri) |
-|  25.  | 02-01-23-mon | [open](./Activity/Jan/02-01-23-mon) |
-|  26.  | 05-01-23-mon | [open](./Activity/Jan/05-01-23-thu) |
+| Sl No | Date         | [Links](./Activity)                  |
+| :---: | ------------ | ------------------------------------ |
+|  1.   | 01-11-22-tue | [open](./Activity/Nov/01-11-22-tue)  |
+|  2.   | 02-11-22-wed | [open](./Activity/Nov/02-11-22-wed)  |
+|  3.   | 03-11-22-thu | [open](./Activity/Nov/03-11-22-thu)  |
+|  4.   | 04-11-22-fri | [open](./Activity/Nov/04-11-22-fri)  |
+|  5.   | 09-11-22-wed | [open](./Activity/Nov/09-11-22-wed)  |
+|  6.   | 15-11-22-tue | [open](./Activity/Nov/15-11-22-tue)  |
+|  7.   | 17-11-22-thu | [open](./Activity/Nov/17-11-22-thu)  |
+|  8.   | 22-11-22-tue | [open](./Activity/Nov/22-11-22-tue)  |
+|  9.   | 23-11-22-wed | [open](./Activity/Nov/23-11-22-wed)  |
+|  10.  | 24-11-22-thu | [open](./Activity/Nov/24-11-22-thu)  |
+|  11.  | 25-11-22-fri | [open](./Activity/Nov/25-11-22-fri)  |
+|  12.  | 28-11-22-mon | [open](./Activity/Nov/28-11-22-mon)  |
+|  13.  | 02-12-22-mon | [open](./Activity/Dec/02-12-22-mon)  |
+|  14.  | 06-12-22-tue | [open](./Activity/Dec/06-12-22-tue)  |
+|  15.  | 08-12-22-thu | [open](./Activity/Dec/08-12-22-thu)  |
+|  16.  | 09-12-22-fri | [open](./Activity/Dec/09-12-22-fri)  |
+|  17.  | 12-12-22-mon | [open](./Activity/Dec/12-12-22-mon)  |
+|  18.  | 13-12-22-tue | [open](./Activity/Dec/13-12-22-tue)  |
+|  19.  | 14-12-22-wed | [open](./Activity/Dec/14-12-22-wed)  |
+|  20.  | 16-12-22-fri | [open](./Activity/Dec/16-12-22-fri)  |
+|  21.  | 22-12-22-thu | [open](./Activity/Dec/22-12-22-thu)  |
+|  22.  | 27-12-22-tue | [open](./Activity/Dec/27-12-22-tue)  |
+|  23.  | 29-12-22-tue | [open](./Activity/Dec/29-12-22-thu)  |
+|  24.  | 30-12-22-fri | [open](./Activity/Dec/30-12-22-fri)  |
+|  25.  | 02-01-23-mon | [open](./Activity/Jan/02-01-23-mon)  |
+|  26.  | 05-01-23-mon | [open](./Activity/Jan/05-01-23-thu)  |
+|  27.  | 14-02-23-tue | [open](./Activity/Feb/14-02-23-tue/) |
 
 
 

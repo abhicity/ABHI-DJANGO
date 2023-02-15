@@ -25,11 +25,50 @@
     <!-- Nav -->
     <!-- Dropdown Structure -->
     <ul id="dropdown" class="dropdown-content">
-        <li><a href="#!">WASHING MACHINE REPAIR SERVICES</a></li>
-        <li><a href="#!">REFRIGERATOR REPAIR SERVICES</a></li>
-        <li><a href="#!">MICROWAVE OVEN REPAIR SERVICES</a></li>
+        <li><a href="./services/wm.html">WASHING MACHINE REPAIR SERVICES</a></li>
+        <li><a href="./services/r.html">REFRIGERATOR REPAIR SERVICES</a></li>
+        <li><a href="./services/mo.html">MICROWAVE OVEN REPAIR SERVICES</a></li>
         <li class="divider"></li>
-        <li><a href="#!">TV REPAIR SERVICES</a></li>
+        <li><a href="./services/tv.html">TV REPAIR SERVICES</a></li>
+    </ul>
+
+    <nav>
+        <div class="nav-wrapper red">
+            <a href="#!" class="brand-logo">CM SERVICE CENTER</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger1" href="#!" data-target="dropdown">SERVICES<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger2" href="#!" data-target="dropdown">SERVICES<i
+                    class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <!-- END OF NAV -->
+
+    <!--OLD
+     Nav -->
+    <!-- Dropdown Structure -->
+    <!--OLD
+    <ul id="dropdown" class="dropdown-content">
+        <li><a href="./services/wm.html">WASHING MACHINE REPAIR SERVICES</a></li>
+        <li><a href="./services/r.html">REFRIGERATOR REPAIR SERVICES</a></li>
+        <li><a href="./services/mo.html">MICROWAVE OVEN REPAIR SERVICES</a></li>
+        <li class="divider"></li>
+        <li><a href="./services/tv.html">TV REPAIR SERVICES</a></li>
     </ul>
 
 
@@ -38,17 +77,18 @@
             <a href="#" class="brand-logo">CM SERVICE CENTER</a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="about.html">ABOUT US</a></li>-->
 
-                <!-- Dropdown Trigger -->
+    <!-- Dropdown Trigger -->
+    <!--
                 <li><a class="dropdown-trigger" href="#!" data-target="dropdown">SERVICES<i
                             class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="gallery.html">GALLERY</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
 
             </ul>
         </div>
-    </nav>
+    </nav> -->
     <!-- END OF NAV -->
 
     <!-- slideshow -->
@@ -121,78 +161,82 @@
     <br><br>
     <!-- Services -->
     <div id="services" class="services">
-        <h2>SERVICES</h2>
+        <div class="col s12 m6 l6">
+            <h2>SERVICES</h2>
 
-        <div class="col s12 m12 l2">
-            <div class="season_tabs">
+            <div class="col s12 m12 l2">
+                <div class="season_tabs">
 
-                <div class="season_tab">
-                    <input type="radio" id="tab-1" name="tab-group-1" checked>
-                    <label for="tab-1">WASHING MACHINE REPAIR SERVICES</label>
+                    <div class="season_tab">
+                        <input type="radio" id="tab-1" name="tab-group-1" checked>
+                        <label for="tab-1">WASHING MACHINE REPAIR SERVICES</label>
 
-                    <div class="season_content">
-                        <h6><b>WASHING MACHINE REPAIR SERVICES</b></h6>
-                        <p>
-                            Is your Washing Machine not working or is it damaged? We have highly trained and experienced
-                            technicians to fix it for you.
-                        </p>
-                        <h6><b>General problems in a Washing Machine:</b></h6>
-                        <p><i class="material-icons">check</i>Spinning Problems </p>
-                        <p><i class="material-icons">check</i>Vibrating or Shaking</p>
-                        <p><i class="material-icons">check</i>Washer leaking water</p>
-                        <p><i class="material-icons">check</i>Washer won't agitate</p>
+                        <div class="season_content">
+                            <h6><b>WASHING MACHINE REPAIR SERVICES</b></h6>
+                            <p>
+                                Is your Washing Machine not working or is it damaged? We have highly trained and
+                                experienced
+                                technicians to fix it for you.
+                            </p>
+                            <h6><b>General problems in a Washing Machine:</b></h6>
+                            <p><i class="material-icons">check</i>Spinning Problems </p>
+                            <p><i class="material-icons">check</i>Vibrating or Shaking</p>
+                            <p><i class="material-icons">check</i>Washer leaking water</p>
+                            <p><i class="material-icons">check</i>Washer won't agitate</p>
+                        </div>
+                    </div>
+
+                    <div class="season_tab">
+                        <input type="radio" id="tab-2" name="tab-group-1">
+                        <label for="tab-2">REFRIGERATOR REPAIR SERVICES</label>
+
+                        <div class="season_content">
+                            <h6><b>REFRIGERATOR REPAIR SERVICES</b></h6>
+                            <p>
+                                Is your refrigerator malfunctioning or damaged You have come to the right place? We have
+                                highly trained and experienced technicians to provide you efficient service. </p>
+                            <h6><b>Common Refrigerator problems</b></h6>
+                            <p><i class="material-icons">check</i> Noisy Fridge</p>
+                            <p><i class="material-icons">check</i>Ice maker not making ice</p>
+                            <p><i class="material-icons">check</i>Not dispensing water</p>
+                        </div>
+                    </div>
+
+                    <div class="season_tab">
+                        <input type="radio" id="tab-3" name="tab-group-1">
+                        <label for="tab-3">MICROWAVE OVEN REPAIR SERVICES</label>
+
+                        <div class="season_content">
+                            <h6><b>MICROWAVE OVEN REPAIR SERVICES</b></h6>
+                            <p>
+                                Is your Microwave oven doesn't heat the food or is it damaged? We have highly trained
+                                and
+                                experienced technicians offering you the best price microwave oven repair and services
+                            </p>
+                            <h6><b>General problems in a Microwave</b></h6>
+                            <p><i class="material-icons">check</i> Microwave does not heat</p>
+                            <p><i class="material-icons">check</i> Microwave runs and then stops</p>
+                            <p><i class="material-icons">check</i> light-bulb does not turn on during operation</p>
+                        </div>
+                    </div>
+                    <div class="season_tab">
+                        <input type="radio" id="tab-4" name="tab-group-1">
+                        <label for="tab-4">TV REPAIR SERVICES</label>
+
+                        <div class="season_content">
+                            <h6><b>TV REPAIR SERVICES</b></h6>
+                            <p>
+                                Are you looking for doorstep TV Repair Services in Bangalore? We have highly trained and
+                                experienced technicians offering you the best price TV Repair Services.
+                            </p>
+                            <h6><b>Typical Problems of TV</b></h6>
+                            <p><i class="material-icons">check</i>Picture not clear</p>
+                            <p><i class="material-icons">check</i>No Sound</p>
+                            <p><i class="material-icons">check</i>Power Issue</p>
+                            <p><i class="material-icons">check</i>Remote Control Failure</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="season_tab">
-                    <input type="radio" id="tab-2" name="tab-group-1">
-                    <label for="tab-2">REFRIGERATOR REPAIR SERVICES</label>
-
-                    <div class="season_content">
-                        <h6><b>REFRIGERATOR REPAIR SERVICES</b></h6>
-                        <p>
-                            Is your refrigerator malfunctioning or damaged You have come to the right place? We have
-                            highly trained and experienced technicians to provide you efficient service. </p>
-                        <h6><b>Common Refrigerator problems</b></h6>
-                        <p><i class="material-icons">check</i> Noisy Fridge</p>
-                        <p><i class="material-icons">check</i>Ice maker not making ice</p>
-                        <p><i class="material-icons">check</i>Not dispensing water</p>
-                    </div>
-                </div>
-
-                <div class="season_tab">
-                    <input type="radio" id="tab-3" name="tab-group-1">
-                    <label for="tab-3">MICROWAVE OVEN REPAIR SERVICES</label>
-
-                    <div class="season_content">
-                        <h6><b>MICROWAVE OVEN REPAIR SERVICES</b></h6>
-                        <p>
-                            Is your Microwave oven doesn't heat the food or is it damaged? We have highly trained and
-                            experienced technicians offering you the best price microwave oven repair and services</p>
-                        <h6><b>General problems in a Microwave</b></h6>
-                        <p><i class="material-icons">check</i> Microwave does not heat</p>
-                        <p><i class="material-icons">check</i> Microwave runs and then stops</p>
-                        <p><i class="material-icons">check</i> light-bulb does not turn on during operation</p>
-                    </div>
-                </div>
-                <div class="season_tab">
-                    <input type="radio" id="tab-4" name="tab-group-1">
-                    <label for="tab-4">TV REPAIR SERVICES</label>
-
-                    <div class="season_content">
-                        <h6><b>TV REPAIR SERVICES</b></h6>
-                        <p>
-                            Are you looking for doorstep TV Repair Services in Bangalore? We have highly trained and
-                            experienced technicians offering you the best price TV Repair Services.
-                        </p>
-                        <h6><b>Typical Problems of TV</b></h6>
-                        <p><i class="material-icons">check</i>Picture not clear</p>
-                        <p><i class="material-icons">check</i>No Sound</p>
-                        <p><i class="material-icons">check</i>Power Issue</p>
-                        <p><i class="material-icons">check</i>Remote Control Failure</p>
-                    </div>
-                </div>
-
             </div>
         </div>
 
@@ -219,7 +263,7 @@
 
                 <div class="col s12 m6 l6">
 
-                    <div class="read_more"></div>
+                    <div class="see_more"></div>
                     <a class="waves-effect waves-light btn-large" href="./gallery.html"><i
                             class="large material-icons"></i>See More</a>
                 </div>
@@ -234,49 +278,51 @@
     <!-- Contact -->
     <div id="contact" class="contact">
         <div class="container">
-            <h2>CONTACT</h2>
-            <div class="row">
-                <div class="col s12 m4 l4">
-                    <ul>
-                        <li>
-                            <i class="material-icons">call</i>
-                        </li>
-                        <li>
-                            <p><b>Call Us</b></p>
-                        </li>
-                        <li><a class="" href="tel:9035426622">9035426622</a></li>
-                        </li>
-                    </ul>
-                </div>
+            <div class="center">
+                <h2>CONTACT</h2>
+                <div class="row">
+                    <div class="col s12 m4 l4">
+                        <ul>
+                            <li>
+                                <i class="material-icons">call</i>
+                            </li>
+                            <li>
+                                <p><b>Call Us</b></p>
+                            </li>
+                            <li><a class="" href="tel:9035426622">9035426622</a></li>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="col s12 m4 l4">
-                    <ul>
-                        <li>
-                            <i class="material-icons">place</i>
-                        </li>
-                        <li>
-                            <p><b>Address</b></p>
-                        </li>
-                        <li>
-                            <p>#123 Address Bangalore</p>
-                        </li>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="col s12 m4 l4">
+                        <ul>
+                            <li>
+                                <i class="material-icons">place</i>
+                            </li>
+                            <li>
+                                <p><b>Address</b></p>
+                            </li>
+                            <li>
+                                <p>#123 Address Bangalore</p>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="col s12 m4 l4">
-                    <ul>
-                        <li>
-                            <i class="material-icons">email</i>
-                        </li>
-                        <li>
-                            <p><b>E-Mail</b></p>
-                        </li>
-                        <li><a class="" href="mailto:mail@gmail.com">mail@gmail.com</a></li>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="col s12 m4 l4">
+                        <ul>
+                            <li>
+                                <i class="material-icons">email</i>
+                            </li>
+                            <li>
+                                <p><b>E-Mail</b></p>
+                            </li>
+                            <li><a class="" href="mailto:mail@gmail.com">mail@gmail.com</a></li>
+                            </li>
+                        </ul>
+                    </div>
 
+                </div>
             </div>
         </div>
     </div>
@@ -314,7 +360,7 @@
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="index.html">HOME</a></li>
                         <li><a class="grey-text text-lighten-3" href="about.html">ABOUT US</a></li>
-                        <li><a class="grey-text text-lighten-3" href="contact.html">CONTACT US</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#contact">CONTACT US</a></li>
 
                     </ul>
                 </div>
@@ -346,6 +392,24 @@
     <!-- END of Footer -->
 
     <script>
+        /* Dropdown */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.dropdown-trigger1');
+            var instances = M.Dropdown.init(elems, {});
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.dropdown-trigger2');
+            var instances = M.Dropdown.init(elems, {});
+        });
+
+        /* Side Nav */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });
+
+
         let slideIndex = 0;
         showSlides();
 
