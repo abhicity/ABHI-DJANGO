@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Students List Page</title>
+{% endblock %}
+
+{% block content %}
+<h1>Students List</h1>
+
+{% for student in students %}
+<h2>{{student.name}}</h2>
+<p>{{student.reg_no}}</p>
+<p>{{student.education}}</p>
+<hr>
+{% endfor %}
+{% endblock %}

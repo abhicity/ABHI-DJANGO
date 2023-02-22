@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Abhi iBlog</title>
+{% endblock %}
+
+{% block content %}
+<br><br>
+{% for blogs in blog %}
+<h2>{{blogs.title}}</h2>
+<p>{{blogs.description}}</p>
+<br><br>
+<hr>
+<br><br>
+
+{% endfor %}
+{% endblock %}

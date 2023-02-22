@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Employes List Page</title>
+{% endblock %}
+
+{% block content %}
+<h1>Employes Batch 1 List</h1>
+<br><br>
+
+{% for b1 in employes %}
+<h2>{{b1.name}}</h2>
+<h3>{{b1.emp_id}}</h3>
+<hr>
+<br><br>
+{% endfor %}
+
+
+
+
+
+
+<h1>Employes Batch 2 List</h1>
+<br><br>
+
+{% for b2 in employes %}
+<h2>{{b2.name}}</h2>
+<h3>{{b2.emp_id}}</h3>
+<hr>
+<br><br>
+{% endfor %}
+
+{% endblock %}
