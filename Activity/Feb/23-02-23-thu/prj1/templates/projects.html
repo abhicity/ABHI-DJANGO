@@ -1,0 +1,18 @@
+{% extends "base.html"%}
+
+{% block title %}
+<title>Projects</title>
+
+{% endblock %}
+
+
+
+{% block body_content %}
+{% for project in projects %}
+<h1>{{project.id}}</h1>
+<h1>{{project.title}}</h1>
+<p>{{project.description|truncatewords:5}}</p>
+<a href="{% url 'project_detail' project.id %}">read more</a>
+<hr>
+{% endfor %}
+{% endblock %}
