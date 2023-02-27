@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Generator</title>
+</head>
+
+<body>
+    <div>
+        <h2>Multiplier</h2>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>From </b><input type="number" name="s_mul"
+            id="s_mul" placeholder="Start Multiplier">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>To </b><input type="number" name="e_mul" id="e_mul" placeholder="End Multiplier">
+    </div>
+    <div>
+        <h2>Table</h2>
+        <b>Start Table </b><input type="number" name="s_table" id="s_table" placeholder="Start Table">
+        <b>End Table </b><input type="number" name="e_table" id="e_table" placeholder="End Table">
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button id="btn" style="padding:1rem 2rem;margin:2rem; background-color:rgb(238, 117, 117);">Generate</button>
+    <h2>Output</h2>
+    <div id="output">
+
+    </div>
+    <script>
+        const s_mul = document.getElementById('s_mul');
+        const e_mul = document.getElementById('e_mul');
+        const s_table = document.getElementById('s_table');
+        const e_table = document.getElementById('e_table');
+        const btn = document.getElementById('btn');
+        const output = document.getElementById('output');
+
+        btn.addEventListener('click', () => {
+            let table_data = '';
+            for (i = s_table.value; i <= e_table.value; i++) {
+                for (j = s_mul.value; j <= e_mul.value; j++) {
+                    table_data += `<p> ${i} x ${j} = ${i * j}</p>`;
+                }
+                table_data += "<hr>"
+            }
+            output.innerHTML = table_data;
+        })
+    </script>
+</body>
+
+</html>

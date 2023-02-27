@@ -228,11 +228,12 @@ Eg: File Name : Extension temporary : md profile : jpg [open](./Jan/02-01-23-mon
 
 ## 05-01-2023, Thursday
 
-1. Blog Website.
+1. Blog Website. [open](./Jan/05-01-23-thu/readme.md)
    1. blog list
    2. blog detail
    3. search
-2. Accounts
+   
+2. Accounts [open](./Jan/05-01-23-thu/readme.md)
    1. logo
    2. naming
    3. pages
@@ -247,7 +248,16 @@ Eg: File Name : Extension temporary : md profile : jpg [open](./Jan/02-01-23-mon
             4. search
          2. bill entry
       5. visiting card.
- 
 
 ---
 
+## 27-02-2023, Monday
+
+Write the code in Python and JavaScript [open](./Feb/27-02-23-mon/readme.md)
+
+1. Table (from, to, number)
+2. Factorial of n
+3. Data cleaning
+   - Remove white spaces
+   - Captilize first letter
+   - Remove any symbols
