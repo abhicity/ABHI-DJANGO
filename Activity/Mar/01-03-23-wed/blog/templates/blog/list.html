@@ -1,0 +1,19 @@
+{% extends "base2.html" %}
+
+{% block title %}
+Abhi Blog | Python String Methods
+{% endblock %}
+
+{% block content %}
+<h1><u>Python String Methods</u></h1>
+
+{% for pysmt in pystringmethodstitle %}
+<p><b>Posted On :{{pysmt.post_date|date:" d-m-Y, D"}}</b></p>
+<h3>{{pysmt.title}}</h3>
+<p>{{pysmt.content}}</p>
+<hr>
+
+
+{% endfor %}
+
+{% endblock %}

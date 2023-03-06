@@ -1,0 +1,19 @@
+{% extends "base2.html" %}
+
+{% block title %}
+Abhi Blog | Python Dict Methods
+{% endblock %}
+
+{% block content %}
+<h1><u>Python Dictionary Methods</u></h1>
+
+{% for pd in pydictmethods_title %}
+<p><b>Posted On :{{pd.post_date|date:" d-m-Y, D"}}</b></p>
+<h3>{{pd.title}}</h3>
+<p>{{pd.content}}</p>
+<hr>
+
+
+{% endfor %}
+
+{% endblock %}

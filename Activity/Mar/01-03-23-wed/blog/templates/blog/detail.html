@@ -1,0 +1,15 @@
+{% extends "base2.html" %}
+
+{% block title %}
+{{blog.title}}
+{% endblock %}
+
+{% block content %}
+{% block content %}
+<h1>Blogs</h1>
+
+<h2>{{blog.title}}</h2>
+<p><b>Posted On :{{pysmt.post_date|date:" d-m-Y, D"}}</b></p>
+<p>{{blog.content}}</p>
+<hr>
+{% endblock %}

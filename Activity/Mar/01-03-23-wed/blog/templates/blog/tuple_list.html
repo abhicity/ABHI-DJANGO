@@ -1,0 +1,19 @@
+{% extends "base2.html" %}
+
+{% block title %}
+Abhi Blog | Python Tuple Methods
+{% endblock %}
+
+{% block content %}
+<h1><u>Python Tuple Methods</u></h1>
+
+{% for pt in pytuplemethods_title %}
+<p><b>Posted On :{{pt.post_date|date:" d-m-Y, D"}}</b></p>
+<h3>{{pt.title}}</h3>
+<p>{{pt.content}}</p>
+<hr>
+
+
+{% endfor %}
+
+{% endblock %}

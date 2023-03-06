@@ -1,0 +1,15 @@
+{% extends "base2.html" %}
+
+{% block title %}
+{{pt.title}}
+{% endblock %}
+
+{% block content %}
+{% block content %}
+<h1>Blogs</h1>
+
+<h2>{{pt.title}}</h2>
+<p><b>Posted On :{{pt.post_date|date:" d-m-Y, D"}}</b></p>
+<p>{{pt.content}}</p>
+<hr>
+{% endblock %}

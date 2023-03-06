@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+    <link rel="shortcut icon" href="https://icon-library.com/images/django-icon/django-icon-0.jpg" type="image/x-icon">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="{% url 'blog:list' %}">STRING METHODS</a></li>
+        <li><a href="{% url 'blog:dict_list' %}">DICT METHODS</a></li>
+        <li><a href="{% url 'blog:tuple_list' %}">TUPLE METHODS</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper red">
+            <a href="#!" class="brand-logo">Abhi Blog</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="{% url 'home' %}">HOME</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">BLOG<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="{% url 'about' %}">ABOUT</a></li>
+                <li><a href="{% url 'contact' %}">CONTACT</a></li>
+                <li><a href="/admin/" target="_blank">ADMIN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer red">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5 class="white-text">QUICK LINKS</h5>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="{% url 'home' %}">Home</a></li>
+                        <li><a href="{% url 'about' %}">About</a></li>
+                        <li><a href="{% url 'contact' %}">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">SOCIALS</h5>
+                    <a href="https://www.facebook.com/profile.php?id=100070896248008&mibextid=ZbWKwL"
+                        target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/null/facebook-new.png"
+                            alt="Facebook"></a>
+
+                    <a href="https://instagram.com/abhishek._.photography?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                            src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png" alt="Instagram"></a>
+
+                    <a href="https://youtube.com/@abhicityyt" target="_blank"><img
+                            src="https://img.icons8.com/material-rounded/30/null/youtube-play.png" alt="Youtube"></a>
+
+                    <a href="https://twitter.com/machcityabhi?t=FrPgfuW2Xfe2hIX0EO1Fow&s=09" target="_blank"><img
+                            src="https://img.icons8.com/ios-glyphs/30/null/twitter--v1.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2023 Abhi Blog. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elems, {});
+        });
+    </script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
