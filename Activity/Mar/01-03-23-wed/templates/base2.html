@@ -33,6 +33,15 @@
                 <li><a href="{% url 'about' %}">ABOUT</a></li>
                 <li><a href="{% url 'contact' %}">CONTACT</a></li>
                 <li><a href="/admin/" target="_blank">ADMIN</a></li>
+                <li>
+                    <form method="get" action="/search">
+                        <input type="search" placeholder="Search" name="query" id="query">
+                        <button type="submit">Submit</button>
+
+
+                        <!--<a href="#!"><i class="material-icons">search</i></a>-->
+                    </form>
+                </li>
             </ul>
         </div>
     </nav>

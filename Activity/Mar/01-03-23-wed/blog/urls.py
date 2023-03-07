@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import blog_list, blog_detail, dict_list, dict_detail, tuple_list, tuple_detail
+from .views import blog_list, blog_detail, dict_list, dict_detail, tuple_list, tuple_detail, search
 
 app_name = "blog"
 
@@ -10,4 +10,7 @@ urlpatterns = [
     path("<int:id>/", dict_detail, name="dict_detail"),
     path("tuple/", tuple_list, name="tuple_list"),
     path("<int:id>/", tuple_detail, name="tuple_detail"),
+    path("search/", search, name="search"),
 ]
+
+#    path("search-blogs/", search_blogs, name="search_blogs")
