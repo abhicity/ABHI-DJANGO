@@ -1,0 +1,19 @@
+header {
+    background-color: #2a2a2a;
+    margin: 0px;
+    padding: 10px;
+}
+
+header>a {
+    color: rgb(196, 7, 7);
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+
+.w-100 {
+    width: 81% !important;
+    height: 80vh;
+}
