@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valid E-Mail</title>
+</head>
+
+<body>
+    <h1>Valid E-Mail in Javascript</h1>
+    <br><br>
+
+    <h3>Validate An Email Address in JavaScript</h3>
+    <form onsubmit="event.preventDefault(); validate();">
+        <label>E-Mail: </label><input type="email" id="my-input" placeholder="Enter E-Mail" value="">
+        <input type="submit" value="submit">
+    </form>
+    <script>
+        function validate() {
+            const myInput = document.querySelector('#my-input');
+            if (myInput.value.length) {
+                alert('You have entered a valid email address!');
+            }
+            else {
+                alert('You have entered an invalid email address!');
+            }
+        }
+    </script>
+
+    <!--<script>
+        function ValidateEmail(inputText) {
+            const mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+            if (inputText.value.match(mailformat)) {
+                alert("You have entered a valid email address!");    //The pop up alert for a valid email address
+                document.form1.text1.focus();
+                return true;
+            }
+            else {
+                alert("You have entered an invalid email address!");    //The pop up alert for an invalid email address
+                document.form1.text1.focus();
+                return false;
+            }
+        }
+</script>-->
+</body>
+
+</html>

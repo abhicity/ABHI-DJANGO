@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valid Phone Nmber</title>
+</head>
+
+<body>
+    <h1>Valid Phone Number in Javascript</h1>
+    <br><br>
+    <h3>Validate 10 Digit Mobile Phone Number in JavaScript.</h3>
+    <form onsubmit="event.preventDefault(); validate();">
+        <label>Mobile Number: </label><input type="number" id="my-input" placeholder="Enter Ph No" value="">
+        <input type="submit" value="submit">
+    </form>
+    <script>
+        function validate() {
+            const myInput = document.querySelector('#my-input');
+            if (myInput.value.length != 10) {
+                alert('10 digit mobile number is required');
+            } else {
+                alert('Number is validated!');
+            }
+        }
+    </script>
+
+</body>
+</body>
+
+</html>
