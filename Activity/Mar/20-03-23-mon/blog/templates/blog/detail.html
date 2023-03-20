@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{blog.title}}
+{% endblock title %}
+
+{% block content %}
+<div>
+    <section>
+        <article>
+            <h1>{{blog.title}}</h1>
+            <p>Date : {{blog.dop}}</p>
+            <p>Category :
+                {% for cat in category.all %}
+                <span>{{cat.name}} | </span>
+                {% endfor %}
+            </p>
+            <p>{{blog.content}}</p>
+            <hr>
+        </article>
+    </section>
+</div>
+{% endblock content %}

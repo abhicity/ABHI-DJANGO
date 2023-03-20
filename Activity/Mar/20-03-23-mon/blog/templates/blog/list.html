@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+List Page
+{% endblock title %}
+
+{% block content %}
+<div>
+    <h1>Blogs</h1>
+    <section>
+        {% for blog in blogs %}
+        <article>
+            <h3>{{blog.title}}</h3>
+            <p>Date : {{blog.dop}}</p>
+            <p>Category :
+                {% for cat in blog.category.all %}
+                <span>{{cat.name}} | </span>
+                {% endfor %}
+            </p>
+            <p>{{blog.content|truncatewords:5}}</p>
+            <p><a href="{% url 'blog:detail' blog.id %}">Read More</a></p>
+            <hr>
+        </article>
+        {% endfor %}
+    </section>
+</div>
+{% endblock content %}
