@@ -58,3 +58,6 @@ TypeError: if you give only one argument to maketrans it must be a dict
 {65: 80}
 ```
 ---
+### 11-04-23-tue
+- [ ] Difference Between different IntegerField in models
+  
