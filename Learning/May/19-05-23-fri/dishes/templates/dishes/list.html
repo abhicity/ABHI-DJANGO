@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Dishes
+{% endblock title %}
+
+{% block content %}
+<h1>Dishes List Page</h1>
+
+{% for dish in dishes %}
+{{dish.name}}
+
+{% endfor %}
+
+{% endblock content %}

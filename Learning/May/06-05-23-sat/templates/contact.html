@@ -1,0 +1,18 @@
+{% extends 'base.html' %}   
+{% load material_form %}
+
+{% block content %}
+
+<h1>Contact Us</h1>
+<div class="container">
+
+
+<form action="#" method="get">
+    {% csrf_token %}
+    {% form form=form %}{% endform %}
+    <br>
+    <button type="submit" name="_submit" class="btn">Submit</button>
+</form>
+</div>
+
+{% endblock content %}

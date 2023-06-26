@@ -1,0 +1,15 @@
+{% extends 'base.html' %}   
+{% load material_form %}
+{% block content %}
+
+<h1>Add-Blogs</h1>
+<div class="container">
+    <form action="" method="post">
+        {% csrf_token %}
+        {% form form=form %}{% endform %}
+        <input type="submit" value="Add">
+    </form>
+</div>
+
+
+{% endblock content %}

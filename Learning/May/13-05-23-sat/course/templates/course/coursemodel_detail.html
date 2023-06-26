@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Course Detail</h1>
+
+
+<h3>{{ course.name }}</h3>
+<p>{{ course.code }}</p>
+<p>Branch: {{ course.branch }}</p>
+<p>Hours: {{ course.hrs }}</p>
+
+<li><a href="{% url 'course:update' course.id %}">Update</a></li><br>
+<li><a href="{% url 'course:delete' course.id %}">delete</a></li>
+
+
+{% endblock content %}

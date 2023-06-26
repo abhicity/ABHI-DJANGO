@@ -1,0 +1,9 @@
+
+{% load material_form %}
+<div class="container">
+    <form action="" method="post">
+        {% csrf_token %}
+        {% form form=form %}{% endform %}
+        <input type="submit" value="Add">
+    </form>
+</div>

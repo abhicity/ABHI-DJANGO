@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}   
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College</title>
-</head>
+{% block content %}
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="{% url 'home' %}">Home</a></li>
-            <li><a href="{% url 'contact' %}">Contact</a></li>
-        </ul>
-    </nav>
-
-    {% block content %}{% endblock content %}
-
-    {% include 'material/includes/material_css.html' %}
-    {% include 'material/includes/material_js.html' %}
-</body>
-
-</html>
+<h1>Blogs</h1>
+{% for blog in blogs %}
+    <ul>
+        <li>{{blog.title}}</li>
+        <li><a href="{% url 'detail_blog' blog.id %}" class="btn green" >Read More</a></li>
+        <li><a href="{% url 'edit_blog' blog.id %}" class="btn blue">Edit</a></li>
+        <li><a href="{% url 'delete_blog' blog.id %}" class="btn red">Delete</a></li>
+    </ul>
+{% endfor %}
+{% endblock content %}

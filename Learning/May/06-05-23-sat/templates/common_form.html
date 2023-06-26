@@ -1,0 +1,22 @@
+{% extends 'base.html' %}   
+{% load material_form %}
+{% block content %}
+
+
+<h2>Common form</h2>
+{% if blog %}
+<h3>Edit-Blog{{blog.id}}</h3>
+{% else %}
+<h3>Add Blog</h3>
+{% endif %}
+
+<div class="container">
+    <form action="" method="post">
+        {% csrf_token %}
+        {% form form=form %}{% endform %}
+        <input type="submit" value="Add">
+    </form>
+</div>
+
+
+{% endblock content %}

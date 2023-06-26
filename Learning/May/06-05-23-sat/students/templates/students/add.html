@@ -1,0 +1,12 @@
+{% extends 'base.html' %}   
+
+{% block content %}
+
+<form action="{% url 'save' %}" method="get">
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    <input type="number" name="number" id="number" placeholder="Phone" required>
+    <input type="email" name="email" id="email" placeholder="email" required>
+    <input type="submit" value="Add">
+</form>
+
+{% endblock content %}
