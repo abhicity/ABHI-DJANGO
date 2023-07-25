@@ -49,7 +49,7 @@
 |  35.  | 28-02-23-tue | [open](./Activity/Feb/28-02-23-tue/) |
 |  36.  | 08-03-23-wed | [open](./Activity/Mar/08-03-23-wed/) |
 |  37.  | 13-03-23-mon | [open](./Activity/Mar/13-03-23-mon/) |
-
+|  38.  | 30-06-23-fri | [open](./Activity/Jun/30-06-23-fri/) |
 
 
 ---

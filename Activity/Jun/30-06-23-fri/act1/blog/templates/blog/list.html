@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}SocialMedia Apps{% endblock title %}
+
+{% block content %}
+
+
+{% for link in links %}
+<div class="row">
+
+    <div class="col s4">
+        <!-- Promo Content 1 goes here -->
+    </div>
+    <div class="col s4">
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <img src="{{link.image.url}}" alt="{{link.name}}" class="circle">
+                <a href="{{link.url}}">{{link.name}}</a>
+
+            </li>
+
+        </ul>
+    </div>
+
+
+</div>
+
+
+{% endfor %}
+
+{% endblock content %}

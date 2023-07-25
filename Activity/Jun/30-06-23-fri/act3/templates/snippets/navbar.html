@@ -1,0 +1,49 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+
+            {% if user.is_authenticated %}
+
+            <a class="navbar-item" href="{% url 'web:home' %}" title="HOME">HOME</a>
+            <a class="navbar-item" href="{% url 'web:about' %}" title="ABOUT">ABOUT</a>
+            <a class="navbar-item" href="{% url 'web:contact' %}" title="CONTACT">CONTACT</a>
+            <!-- <a class="navbar-item" href="/admin/" title="ADMIN" target="_blank">ADMIN</a> -->
+            <a class="navbar-item" href="{% url 'web:blog' %}" title="BLOG">BLOG</a>
+            <a class="navbar-item" href="{% url 'web:logout' %}" title="LOGOUT">LOGOUT</a>
+
+            {% else %}
+
+        </div>
+
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-primary" href="{% url 'web:register' %}" title="REGISTER">
+                        <strong>Register</strong>
+                    </a>
+                    <a class="button is-light" href="{% url 'web:login' %}" title="LOGIN">
+                        Log in
+                    </a>
+
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</nav>
